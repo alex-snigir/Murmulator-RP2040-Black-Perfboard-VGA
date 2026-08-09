@@ -46,3 +46,5 @@ doc-local/
 
 # debug information files
 *.dwo
+
+*.backup
