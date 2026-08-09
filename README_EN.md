@@ -2,6 +2,8 @@
 
 # Murmulator — RP2040 Black Clone, VGA Build on Perfboard
 
+**Status: Work in progress**
+
 A Murmulator build (an adapter board from a Raspberry Pi Pico / YD-RP2040 clone to peripherals) with VGA output, a PS/2 keyboard, two joystick ports (with Bluetooth gamepad support via BlueRetro), audio output, and external power. The board is assembled on perfboard; the schematic is laid out in KiCad.
 
 ## Board Connectors
