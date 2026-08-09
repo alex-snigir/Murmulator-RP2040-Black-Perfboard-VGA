@@ -33,7 +33,7 @@ A Murmulator build (an adapter board from a Raspberry Pi Pico / YD-RP2040 clone 
 - **VGA** — a passive resistor R2R ladder on GPIO pins, no separate power supply needed.
 - **PS/2 keyboard** — powered from Vout (downstream of the BAT54C diode); the CLK/DATA signal lines are level-shifted 5V → 3.3V via a resistor/zener-clamp network.
 - **Joysticks (Dendy-type, DE-9)** — the shift register is powered from 3.3V, which removes the need for a protective resistor on DATA.
-- **BlueRetro** — a DIY ESP32-based adapter emulates both joystick ports over Bluetooth HID (PS3/4/5, Xbox, Wii/Switch, and others); the CLOCK/LATCH/DATA protocol is identical to a physical Dendy joystick. Requires an external PSU to be connected.
+- **BlueRetro** — a DIY ESP32-based adapter emulates both joystick ports over Bluetooth HID (PS3/4/5, Xbox, Wii/Switch, and others); the CLOCK/LATCH/DATA protocol is identical to a physical Dendy joystick. Requires an external PSU to be connected. 3.3V-logic build of the adapter: https://github.com/alex-snigir/BlueRetro-3.3V-logic
 - **Audio output** — stereo (L/R) channels plus a mixed-in beeper signal (BEEP_OUT).
 - **Power** — Schottky diode D1 (1N5819) backs up the path from the PSU to the +5V_VOUT node, bypassing the low-current onboard BAT54C.
 
@@ -44,3 +44,4 @@ See [`doc/murmulator-vga-project-summary_EN.md`](doc/murmulator-vga-project-summ
 - Official documentation and other Murmulator build variants: https://murmulator.ru/howto
 - Classic schematic (reference): https://github.com/AlexEkb4ever/MURMULATOR_classical_scheme
 - Base version "Murmulator on a 7×9 perfboard with VGA": https://murmulator.ru/mm-maket
+- BlueRetro 3.3V-logic adapter (joystick port integration): https://github.com/alex-snigir/BlueRetro-3.3V-logic
