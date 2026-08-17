@@ -493,7 +493,7 @@
     ]
   },
   "meta": {
-    "filename": "schematics_rp2040_black_vga.kicad_pro",
+    "filename": "rp2040_black_vga.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -672,18 +672,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "schematics_rp2040_black_vga.kicad_sch",
-        "name": "schematics_rp2040_black_vga",
+        "filename": "rp2040_black_vga.kicad_sch",
+        "name": "rp2040_black_vga",
         "uuid": "596ca221-af1d-4d3f-8faf-36ce9897849d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J8,J12,#FLG3",
     "variants": []
   },
   "sheets": [
     [
       "596ca221-af1d-4d3f-8faf-36ce9897849d",
-      "schematics_rp2040_black_vga"
+      "rp2040_black_vga"
     ]
   ],
   "text_variables": {},

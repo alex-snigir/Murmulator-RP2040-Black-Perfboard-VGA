@@ -10,289 +10,6 @@
 		(company "Alex Snigir")
 	)
 	(lib_symbols
-		(symbol "Connector:AudioJack3_SwitchTR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack3_SwitchTR"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AudioJack3_SwitchTR_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end -6.35 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -0.254) (xy 0.762 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -5.334) (xy 2.032 -5.842)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -5.08 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 0.508 -2.54) (xy 0.508 -0.254) (xy 0.254 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -7.62) (xy 1.778 -7.62) (xy 1.778 -5.334) (xy 1.524 -5.842)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AudioJack3_SwitchTR_1_1"
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "RN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "TN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:DE15_Socket_HighDensity_MountingHoles"
 			(pin_names
 				(offset 1.016)
@@ -1986,6 +1703,289 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Audio:AudioJack3_SwitchTR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack3_SwitchTR"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AudioJack3_SwitchTR_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end -6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -0.254) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -5.334) (xy 2.032 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -5.08 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.508 -2.54) (xy 0.508 -0.254) (xy 0.254 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 1.778 -7.62) (xy 1.778 -5.334) (xy 1.524 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AudioJack3_SwitchTR_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4204,6 +4204,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers
 				(hide yes)
@@ -4364,6 +4541,162 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 1.8542)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
 					(name ""
 						(effects
 							(font
@@ -5518,6 +5851,170 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7061,7 +7558,7 @@
 	)
 	(text "Audio-In Interface"
 		(exclude_from_sim no)
-		(at 124.968 97.79 0)
+		(at 118.618 109.22 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -7071,7 +7568,7 @@
 		)
 		(uuid "32bbf90f-a26b-4315-9a94-877fbb127320")
 	)
-	(text "Power Out"
+	(text "RAW Power Out"
 		(exclude_from_sim no)
 		(at 105.156 20.066 0)
 		(effects
@@ -7094,6 +7591,18 @@
 		)
 		(uuid "41f25265-2a69-4de5-9daa-119c84e08787")
 	)
+	(text "Power 5V Out"
+		(exclude_from_sim no)
+		(at 101.346 82.55 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "5484c118-46f1-42dd-b5d8-75791212c760")
+	)
 	(text "External PSU"
 		(exclude_from_sim no)
 		(at 69.088 19.812 0)
@@ -7105,6 +7614,28 @@
 			)
 		)
 		(uuid "606080e6-f063-49b2-afc3-f7f24bdb949d")
+	)
+	(text "RAW Power Out connected to +5V_RAW\nto prevent powering through\nVout/VBUS pin 40 of MC"
+		(exclude_from_sim no)
+		(at 107.188 45.466 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+		(uuid "6812942a-9471-4270-a874-e8f8b8c83bd0")
+	)
+	(text "ADC_VREF"
+		(exclude_from_sim no)
+		(at 56.388 166.37 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "74da3aba-7125-43e4-9f2b-b30e22106770")
 	)
 	(text "GP_15"
 		(exclude_from_sim no)
@@ -7143,7 +7674,7 @@
 	)
 	(text "Audio-Out Interface"
 		(exclude_from_sim no)
-		(at 125.222 137.922 0)
+		(at 117.602 144.272 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -7232,8 +7763,20 @@
 		)
 		(uuid "b7d22821-e98d-4c7c-a00e-241ae0453c5b")
 	)
+	(text "Power 3V Out"
+		(exclude_from_sim no)
+		(at 96.266 58.42 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "ba682c8a-fd76-43ed-947e-9f9f78344fae")
+	)
 	(junction
-		(at 116.84 123.19)
+		(at 110.49 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01bc7627-1048-48c8-aa7b-f38ebbfb4b8b")
@@ -7245,13 +7788,19 @@
 		(uuid "0319d563-42b2-4883-96ee-665bd191b3db")
 	)
 	(junction
+		(at 88.9 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04bd7541-84f2-43ed-ac64-a8f459f2c903")
+	)
+	(junction
 		(at 205.74 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "082d6dfa-d099-4d4c-b948-1c09b87bb01e")
 	)
 	(junction
-		(at 171.45 99.06)
+		(at 165.1 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f38403a-7957-4717-a117-d094b14e5b3c")
@@ -7269,7 +7818,7 @@
 		(uuid "161d4ff5-a7ba-4fc2-9ef8-dad9e9651309")
 	)
 	(junction
-		(at 128.27 158.75)
+		(at 120.65 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b738b80-dad5-4baa-962c-840fdb2bf2a9")
@@ -7293,19 +7842,19 @@
 		(uuid "25ca1940-762c-4dd5-8521-a674815b90c4")
 	)
 	(junction
-		(at 158.75 161.29)
+		(at 151.13 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "277f2802-9597-4130-93e4-6738db3deffe")
 	)
 	(junction
-		(at 142.24 111.76)
+		(at 135.89 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2904e2f4-037b-4a67-94cf-163835fa72f8")
 	)
 	(junction
-		(at 147.32 168.91)
+		(at 139.7 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e34a294-7e7d-426b-856d-6a5103f76248")
@@ -7317,19 +7866,19 @@
 		(uuid "2f1d92af-0049-443a-9e5d-c5a8eda64e83")
 	)
 	(junction
-		(at 128.27 147.32)
+		(at 120.65 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31b03b6c-c356-468c-ace1-f6909e64fe14")
 	)
 	(junction
-		(at 120.65 147.32)
+		(at 113.03 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39266456-5a7e-4c59-8829-06e6c319e0a1")
 	)
 	(junction
-		(at 147.32 147.32)
+		(at 139.7 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ad9543b-575c-414e-b2ee-a3df880ae534")
@@ -7341,13 +7890,13 @@
 		(uuid "403b7f86-4448-494d-89c7-f04b918e6c1e")
 	)
 	(junction
-		(at 120.65 168.91)
+		(at 113.03 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4554ddc1-1bd2-4052-8ec9-64a2b9aebc4b")
 	)
 	(junction
-		(at 152.4 105.41)
+		(at 146.05 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4803cf63-0e2f-4f91-ac8c-5afc7837e911")
@@ -7359,7 +7908,7 @@
 		(uuid "48fcef50-e3cc-4bfb-858c-c0768c582b40")
 	)
 	(junction
-		(at 128.27 180.34)
+		(at 120.65 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bdf04ce-69ae-4860-8791-105467027388")
@@ -7371,7 +7920,7 @@
 		(uuid "572a7539-fa71-4dc1-927b-637f738b0eff")
 	)
 	(junction
-		(at 139.7 168.91)
+		(at 132.08 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5736aaf6-d4a9-4717-8272-d93612c27746")
@@ -7383,7 +7932,7 @@
 		(uuid "5d629d9c-3592-45fc-9eb8-d702efe25823")
 	)
 	(junction
-		(at 152.4 123.19)
+		(at 146.05 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5df53747-758f-4c4d-97da-09fcb87a1fb2")
@@ -7395,7 +7944,13 @@
 		(uuid "63817d57-3a20-4dd2-98ba-1ab4a7bf0484")
 	)
 	(junction
-		(at 171.45 88.9)
+		(at 76.2 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67937096-802f-4da1-ba09-0626e399e40d")
+	)
+	(junction
+		(at 165.1 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73ba5820-b020-4398-bfb8-aae2d08c09ad")
@@ -7407,7 +7962,7 @@
 		(uuid "749defe0-13e5-47ab-b92b-1d35d3eaf2a4")
 	)
 	(junction
-		(at 139.7 147.32)
+		(at 132.08 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79bd7660-cfb5-41d4-9e9b-a7c5e22389ff")
@@ -7449,25 +8004,31 @@
 		(uuid "9c6d3892-5e1a-4926-a828-a0485cfc976f")
 	)
 	(junction
+		(at 204.47 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f2ea920-a4aa-4266-b7fc-9b4284eaae34")
+	)
+	(junction
 		(at 33.02 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4fb221e-e210-455f-bce5-a0d9bc546d35")
 	)
 	(junction
-		(at 171.45 123.19)
+		(at 165.1 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8232ef2-0a10-4f4e-87b1-cb4d1f5d93c7")
 	)
 	(junction
-		(at 116.84 111.76)
+		(at 110.49 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aec780c4-543d-408a-854f-555665e5be57")
 	)
 	(junction
-		(at 121.92 111.76)
+		(at 115.57 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aed7c44c-4e64-4a14-947d-e23cf1bf8f1e")
@@ -7479,7 +8040,7 @@
 		(uuid "b4696bc3-1935-4d8c-98e9-47b60285d3be")
 	)
 	(junction
-		(at 186.69 88.9)
+		(at 180.34 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd29c2d4-aac0-4013-84b4-da6259f64294")
@@ -7497,7 +8058,7 @@
 		(uuid "c99a7cc3-99c9-4dab-bff2-f38655c73329")
 	)
 	(junction
-		(at 128.27 168.91)
+		(at 120.65 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d278bb90-8b0c-4a76-8a61-80adaf116fc4")
@@ -7507,6 +8068,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2d341b3-1102-455e-9664-07c993136b96")
+	)
+	(junction
+		(at 187.96 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2d36ff3-c895-40b5-869a-89a25766dc3b")
 	)
 	(junction
 		(at 40.64 168.91)
@@ -7545,13 +8112,19 @@
 		(uuid "ef4d1656-2afb-4724-995d-efa52e1f867c")
 	)
 	(junction
+		(at 76.2 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f335d48a-e381-4af4-b7ae-092e063532c3")
+	)
+	(junction
 		(at 60.96 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3bd22c0-c0ab-49ec-a309-84080f58f30b")
 	)
 	(junction
-		(at 121.92 123.19)
+		(at 115.57 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7e3aed2-bc18-4adc-a792-72c097ac9680")
@@ -7591,7 +8164,7 @@
 		(uuid "15a1befd-00e2-4550-b6fb-c7ddab73f2cd")
 	)
 	(no_connect
-		(at 105.41 113.03)
+		(at 99.06 124.46)
 		(uuid "1daab573-93c4-41f0-ac83-4da1eed24fea")
 	)
 	(no_connect
@@ -7599,7 +8172,7 @@
 		(uuid "2608e6ad-d945-444c-aada-c7208f7df2fd")
 	)
 	(no_connect
-		(at 135.89 34.29)
+		(at 134.62 34.29)
 		(uuid "2960ae0f-fa2d-4f77-b576-f30faed45d5c")
 	)
 	(no_connect
@@ -7607,15 +8180,15 @@
 		(uuid "36dc559f-bc53-4e44-8255-72982e3dcef7")
 	)
 	(no_connect
-		(at 135.89 41.91)
+		(at 134.62 41.91)
 		(uuid "4625e188-eb1b-4108-8995-c00647455b10")
 	)
 	(no_connect
-		(at 104.14 153.67)
+		(at 96.52 160.02)
 		(uuid "4e968caa-8484-4ea1-af0a-9667c73494c2")
 	)
 	(no_connect
-		(at 104.14 158.75)
+		(at 96.52 165.1)
 		(uuid "54fa2e54-2301-4a06-97b1-699063fdbfd1")
 	)
 	(no_connect
@@ -7631,11 +8204,7 @@
 		(uuid "5b36d030-dee1-4f8c-ad5e-c1be4de3a67f")
 	)
 	(no_connect
-		(at 166.37 34.29)
-		(uuid "5e8f2c36-cc08-4ac9-8d1f-9497173b4d65")
-	)
-	(no_connect
-		(at 135.89 39.37)
+		(at 134.62 39.37)
 		(uuid "5feedfd2-0662-4a77-b8cf-c3fe1fa4cddd")
 	)
 	(no_connect
@@ -7655,7 +8224,7 @@
 		(uuid "7464ac02-0910-45c6-98b4-8551051f964e")
 	)
 	(no_connect
-		(at 166.37 46.99)
+		(at 165.1 46.99)
 		(uuid "777164d3-1021-4b6a-ac8f-f3d1f1266831")
 	)
 	(no_connect
@@ -7667,7 +8236,7 @@
 		(uuid "90cdac66-d487-46e6-bab4-9e7d8172668d")
 	)
 	(no_connect
-		(at 166.37 49.53)
+		(at 165.1 49.53)
 		(uuid "93b8efb2-225c-46e7-a6c7-fff810112b46")
 	)
 	(no_connect
@@ -7675,11 +8244,11 @@
 		(uuid "94cdb81a-d2af-4de8-9198-587b96203d84")
 	)
 	(no_connect
-		(at 166.37 41.91)
+		(at 165.1 41.91)
 		(uuid "a5109634-9699-4fda-a689-0c6aaa3f6913")
 	)
 	(no_connect
-		(at 105.41 118.11)
+		(at 99.06 129.54)
 		(uuid "b015b243-0f15-4dae-afe3-941aa110b8bd")
 	)
 	(no_connect
@@ -7707,7 +8276,7 @@
 		(uuid "dc35794c-c01e-4f8a-a3c5-4b3cc249e769")
 	)
 	(no_connect
-		(at 105.41 120.65)
+		(at 99.06 132.08)
 		(uuid "dda22092-9ef6-44e6-b693-05104fdc5f53")
 	)
 	(no_connect
@@ -7715,7 +8284,7 @@
 		(uuid "edf093e2-d12d-4cac-9f2d-63ff5096dda1")
 	)
 	(no_connect
-		(at 135.89 36.83)
+		(at 134.62 36.83)
 		(uuid "eea0d451-5598-46e0-b016-bdb75e08e25a")
 	)
 	(no_connect
@@ -7744,7 +8313,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 116.84) (xy 152.4 123.19)
+			(xy 146.05 128.27) (xy 146.05 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7754,23 +8323,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 156.21) (xy 147.32 156.21)
+			(xy 140.97 162.56) (xy 139.7 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "01433689-818d-4a9b-a546-274916db2799")
-	)
-	(wire
-		(pts
-			(xy 193.04 26.67) (xy 193.04 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01811d83-649c-477d-8fef-5b7b3e604e02")
 	)
 	(wire
 		(pts
@@ -7794,7 +8353,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 168.91) (xy 109.22 161.29)
+			(xy 101.6 175.26) (xy 101.6 167.64)
 		)
 		(stroke
 			(width 0)
@@ -7824,7 +8383,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 161.29) (xy 147.32 168.91)
+			(xy 139.7 167.64) (xy 139.7 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7854,7 +8413,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 177.8) (xy 139.7 180.34)
+			(xy 132.08 184.15) (xy 132.08 186.69)
 		)
 		(stroke
 			(width 0)
@@ -7874,7 +8433,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 105.41) (xy 152.4 106.68)
+			(xy 146.05 116.84) (xy 146.05 118.11)
 		)
 		(stroke
 			(width 0)
@@ -7884,7 +8443,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 111.76) (xy 132.08 111.76)
+			(xy 124.46 123.19) (xy 125.73 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7904,7 +8463,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 168.91) (xy 137.16 168.91)
+			(xy 132.08 175.26) (xy 129.54 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7914,7 +8473,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 180.34) (xy 128.27 181.61)
+			(xy 120.65 186.69) (xy 120.65 187.96)
 		)
 		(stroke
 			(width 0)
@@ -7944,7 +8503,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 110.49) (xy 171.45 123.19)
+			(xy 165.1 121.92) (xy 165.1 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7954,7 +8513,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 123.19) (xy 121.92 121.92)
+			(xy 115.57 134.62) (xy 115.57 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7974,7 +8533,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 88.9) (xy 171.45 88.9)
+			(xy 146.05 100.33) (xy 165.1 100.33)
 		)
 		(stroke
 			(width 0)
@@ -8054,7 +8613,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 177.8) (xy 128.27 180.34)
+			(xy 120.65 184.15) (xy 120.65 186.69)
 		)
 		(stroke
 			(width 0)
@@ -8064,7 +8623,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 96.52) (xy 186.69 99.06)
+			(xy 180.34 107.95) (xy 180.34 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8094,7 +8653,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 147.32) (xy 148.59 147.32)
+			(xy 139.7 153.67) (xy 140.97 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8104,7 +8663,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 147.32) (xy 109.22 156.21)
+			(xy 101.6 153.67) (xy 101.6 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8124,7 +8683,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 44.45) (xy 135.89 44.45)
+			(xy 127 44.45) (xy 134.62 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8134,7 +8693,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 54.61) (xy 135.89 54.61)
+			(xy 127 54.61) (xy 134.62 54.61)
 		)
 		(stroke
 			(width 0)
@@ -8151,16 +8710,6 @@
 			(type default)
 		)
 		(uuid "1fd166db-f6c0-4124-b650-b39d6d499a81")
-	)
-	(wire
-		(pts
-			(xy 166.37 26.67) (xy 175.26 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "207b2393-e4cd-410b-83f7-89cc1573e065")
 	)
 	(wire
 		(pts
@@ -8204,7 +8753,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 105.41) (xy 142.24 111.76)
+			(xy 135.89 116.84) (xy 135.89 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8284,7 +8833,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 111.76) (xy 121.92 111.76)
+			(xy 116.84 123.19) (xy 115.57 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8304,7 +8853,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 147.32) (xy 128.27 148.59)
+			(xy 120.65 153.67) (xy 120.65 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8324,7 +8873,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 168.91) (xy 109.22 168.91)
+			(xy 113.03 175.26) (xy 101.6 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8334,13 +8883,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 62.23) (xy 173.99 62.23)
+			(xy 165.1 62.23) (xy 173.99 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2f526b5a-c991-41ee-8179-dc716cd334a3")
+	)
+	(wire
+		(pts
+			(xy 81.28 31.75) (xy 76.2 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa76f30-8bab-44b5-b1be-58324bec1ff9")
 	)
 	(wire
 		(pts
@@ -8374,7 +8933,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 36.83) (xy 196.85 36.83)
+			(xy 165.1 36.83) (xy 173.99 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8384,7 +8943,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 158.75) (xy 128.27 160.02)
+			(xy 120.65 165.1) (xy 120.65 166.37)
 		)
 		(stroke
 			(width 0)
@@ -8394,7 +8953,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 161.29) (xy 156.21 161.29)
+			(xy 151.13 167.64) (xy 148.59 167.64)
 		)
 		(stroke
 			(width 0)
@@ -8404,7 +8963,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 161.29) (xy 119.38 161.29)
+			(xy 113.03 167.64) (xy 111.76 167.64)
 		)
 		(stroke
 			(width 0)
@@ -8464,7 +9023,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 96.52) (xy 171.45 99.06)
+			(xy 165.1 107.95) (xy 165.1 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8524,6 +9083,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 36.83) (xy 71.12 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc92177-b014-465a-b26f-b3ca495359f8")
+	)
+	(wire
+		(pts
 			(xy 250.19 77.47) (xy 250.19 111.76)
 		)
 		(stroke
@@ -8544,7 +9113,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 168.91) (xy 128.27 168.91)
+			(xy 124.46 175.26) (xy 120.65 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8594,13 +9163,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 123.19) (xy 152.4 123.19)
+			(xy 115.57 134.62) (xy 146.05 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3f3522b2-0e33-4b23-8f2b-65647378d70f")
+	)
+	(wire
+		(pts
+			(xy 101.6 91.44) (xy 110.49 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f714c53-14ba-496d-b6a5-067ac27b680f")
 	)
 	(wire
 		(pts
@@ -8614,7 +9193,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 54.61) (xy 173.99 54.61)
+			(xy 204.47 82.55) (xy 204.47 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40776301-49ff-4cde-9836-082e639db9e7")
+	)
+	(wire
+		(pts
+			(xy 165.1 54.61) (xy 173.99 54.61)
 		)
 		(stroke
 			(width 0)
@@ -8624,7 +9213,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 147.32) (xy 109.22 147.32)
+			(xy 113.03 153.67) (xy 101.6 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8644,7 +9233,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 115.57) (xy 105.41 115.57)
+			(xy 101.6 127) (xy 99.06 127)
 		)
 		(stroke
 			(width 0)
@@ -8654,7 +9243,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 57.15) (xy 173.99 57.15)
+			(xy 165.1 57.15) (xy 173.99 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8664,7 +9253,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 64.77) (xy 173.99 64.77)
+			(xy 165.1 64.77) (xy 173.99 64.77)
 		)
 		(stroke
 			(width 0)
@@ -8684,7 +9273,27 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 123.19) (xy 121.92 123.19)
+			(xy 165.1 26.67) (xy 187.96 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46487e19-111b-4d63-b5bc-251a63255da1")
+	)
+	(wire
+		(pts
+			(xy 213.36 86.36) (xy 213.36 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46aac051-5548-40f8-9afd-55f9c97868b6")
+	)
+	(wire
+		(pts
+			(xy 110.49 134.62) (xy 115.57 134.62)
 		)
 		(stroke
 			(width 0)
@@ -8694,7 +9303,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 156.21) (xy 139.7 158.75)
+			(xy 132.08 162.56) (xy 132.08 165.1)
 		)
 		(stroke
 			(width 0)
@@ -8714,7 +9323,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 31.75) (xy 93.98 31.75)
+			(xy 88.9 31.75) (xy 95.25 31.75)
 		)
 		(stroke
 			(width 0)
@@ -8724,7 +9333,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 87.63) (xy 186.69 88.9)
+			(xy 180.34 99.06) (xy 180.34 100.33)
 		)
 		(stroke
 			(width 0)
@@ -8734,7 +9343,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 156.21) (xy 109.22 156.21)
+			(xy 96.52 162.56) (xy 101.6 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8744,7 +9353,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 118.11) (xy 116.84 123.19)
+			(xy 110.49 129.54) (xy 110.49 134.62)
 		)
 		(stroke
 			(width 0)
@@ -8844,7 +9453,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 88.9) (xy 171.45 88.9)
+			(xy 180.34 100.33) (xy 165.1 100.33)
 		)
 		(stroke
 			(width 0)
@@ -8854,7 +9463,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 69.85) (xy 173.99 69.85)
+			(xy 165.1 69.85) (xy 173.99 69.85)
 		)
 		(stroke
 			(width 0)
@@ -8864,7 +9473,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 168.91) (xy 147.32 168.91)
+			(xy 132.08 175.26) (xy 139.7 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8874,7 +9483,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 147.32) (xy 170.18 147.32)
+			(xy 148.59 153.67) (xy 162.56 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8894,7 +9503,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 52.07) (xy 135.89 52.07)
+			(xy 127 52.07) (xy 134.62 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8914,7 +9523,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 168.91) (xy 148.59 168.91)
+			(xy 139.7 175.26) (xy 140.97 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8964,7 +9573,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 46.99) (xy 135.89 46.99)
+			(xy 17.78 176.53) (xy 21.59 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d75ccf-7c96-47cd-bc4b-2b861f5f55ce")
+	)
+	(wire
+		(pts
+			(xy 127 46.99) (xy 134.62 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8984,7 +9603,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 111.76) (xy 142.24 111.76)
+			(xy 133.35 123.19) (xy 135.89 123.19)
 		)
 		(stroke
 			(width 0)
@@ -9014,7 +9633,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 156.21) (xy 120.65 156.21)
+			(xy 111.76 162.56) (xy 113.03 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9054,7 +9673,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 96.52) (xy 152.4 105.41)
+			(xy 146.05 107.95) (xy 146.05 116.84)
 		)
 		(stroke
 			(width 0)
@@ -9104,7 +9723,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 74.93) (xy 173.99 74.93)
+			(xy 165.1 74.93) (xy 173.99 74.93)
 		)
 		(stroke
 			(width 0)
@@ -9124,7 +9743,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 31.75) (xy 135.89 31.75)
+			(xy 127 31.75) (xy 134.62 31.75)
 		)
 		(stroke
 			(width 0)
@@ -9164,7 +9783,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 44.45) (xy 173.99 44.45)
+			(xy 165.1 44.45) (xy 173.99 44.45)
 		)
 		(stroke
 			(width 0)
@@ -9174,7 +9793,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 52.07) (xy 166.37 52.07)
+			(xy 165.1 52.07) (xy 180.34 52.07)
 		)
 		(stroke
 			(width 0)
@@ -9194,7 +9813,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 115.57) (xy 116.84 111.76)
+			(xy 110.49 127) (xy 110.49 123.19)
 		)
 		(stroke
 			(width 0)
@@ -9211,6 +9830,16 @@
 			(type default)
 		)
 		(uuid "78ae5562-89d2-4098-bd9f-cba27b69ebe1")
+	)
+	(wire
+		(pts
+			(xy 204.47 73.66) (xy 213.36 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79962e32-b69c-4880-9d27-d1da73e7e9f8")
 	)
 	(wire
 		(pts
@@ -9254,7 +9883,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 158.75) (xy 128.27 158.75)
+			(xy 187.96 35.56) (xy 187.96 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db7d072-5cee-4519-b318-023811140436")
+	)
+	(wire
+		(pts
+			(xy 111.76 165.1) (xy 120.65 165.1)
 		)
 		(stroke
 			(width 0)
@@ -9304,7 +9943,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 111.76) (xy 121.92 114.3)
+			(xy 115.57 123.19) (xy 115.57 125.73)
 		)
 		(stroke
 			(width 0)
@@ -9314,7 +9953,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 62.23) (xy 135.89 62.23)
+			(xy 127 62.23) (xy 134.62 62.23)
 		)
 		(stroke
 			(width 0)
@@ -9334,7 +9973,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 29.21) (xy 135.89 29.21)
+			(xy 127 29.21) (xy 134.62 29.21)
 		)
 		(stroke
 			(width 0)
@@ -9364,7 +10003,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 72.39) (xy 135.89 72.39)
+			(xy 127 72.39) (xy 134.62 72.39)
 		)
 		(stroke
 			(width 0)
@@ -9384,7 +10023,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 161.29) (xy 109.22 161.29)
+			(xy 96.52 167.64) (xy 101.6 167.64)
 		)
 		(stroke
 			(width 0)
@@ -9444,7 +10083,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 111.76) (xy 107.95 115.57)
+			(xy 101.6 123.19) (xy 101.6 127)
 		)
 		(stroke
 			(width 0)
@@ -9454,7 +10093,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 147.32) (xy 128.27 147.32)
+			(xy 113.03 153.67) (xy 120.65 153.67)
 		)
 		(stroke
 			(width 0)
@@ -9464,7 +10103,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 156.21) (xy 120.65 147.32)
+			(xy 113.03 162.56) (xy 113.03 153.67)
 		)
 		(stroke
 			(width 0)
@@ -9504,7 +10143,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 168.91) (xy 120.65 168.91)
+			(xy 120.65 175.26) (xy 113.03 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9534,7 +10173,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 163.83) (xy 105.41 165.1)
+			(xy 97.79 170.18) (xy 97.79 171.45)
 		)
 		(stroke
 			(width 0)
@@ -9554,7 +10193,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 161.29) (xy 147.32 161.29)
+			(xy 140.97 167.64) (xy 139.7 167.64)
 		)
 		(stroke
 			(width 0)
@@ -9574,17 +10213,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 36.83) (xy 73.66 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c7245b7-a6b8-4bd1-97d9-d773f003b165")
-	)
-	(wire
-		(pts
-			(xy 152.4 123.19) (xy 171.45 123.19)
+			(xy 146.05 134.62) (xy 165.1 134.62)
 		)
 		(stroke
 			(width 0)
@@ -9594,7 +10223,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 148.59) (xy 139.7 147.32)
+			(xy 132.08 154.94) (xy 132.08 153.67)
 		)
 		(stroke
 			(width 0)
@@ -9624,7 +10253,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 156.21) (xy 128.27 158.75)
+			(xy 120.65 162.56) (xy 120.65 165.1)
 		)
 		(stroke
 			(width 0)
@@ -9634,7 +10263,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 168.91) (xy 120.65 161.29)
+			(xy 113.03 175.26) (xy 113.03 167.64)
 		)
 		(stroke
 			(width 0)
@@ -9664,7 +10293,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 99.06) (xy 182.88 99.06)
+			(xy 165.1 110.49) (xy 176.53 110.49)
 		)
 		(stroke
 			(width 0)
@@ -9684,7 +10313,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 64.77) (xy 135.89 64.77)
+			(xy 127 64.77) (xy 134.62 64.77)
 		)
 		(stroke
 			(width 0)
@@ -9701,6 +10330,36 @@
 			(type default)
 		)
 		(uuid "a49413b2-c8bc-4b75-bea6-937a89a44836")
+	)
+	(wire
+		(pts
+			(xy 199.39 73.66) (xy 204.47 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e5cdcb-a656-4094-88ab-ecec011f787d")
+	)
+	(wire
+		(pts
+			(xy 187.96 30.48) (xy 187.96 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a63853fe-0beb-40fc-9b44-cebb1259b917")
+	)
+	(wire
+		(pts
+			(xy 180.34 35.56) (xy 180.34 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aadb5b67-1844-437e-90ca-184d07b0c524")
 	)
 	(wire
 		(pts
@@ -9744,13 +10403,33 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 57.15) (xy 135.89 57.15)
+			(xy 71.12 39.37) (xy 76.2 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae296a96-cf88-40f5-af0c-2c6e11e935fe")
+	)
+	(wire
+		(pts
+			(xy 127 57.15) (xy 134.62 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aeb84ff8-1cbb-4b04-8757-43b0069d89ce")
+	)
+	(wire
+		(pts
+			(xy 180.34 62.23) (xy 180.34 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd3f7be-8402-4dae-bc8d-8976844d3bff")
 	)
 	(wire
 		(pts
@@ -9774,7 +10453,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 36.83) (xy 73.66 36.83)
+			(xy 69.85 36.83) (xy 71.12 36.83)
 		)
 		(stroke
 			(width 0)
@@ -9794,7 +10473,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 147.32) (xy 147.32 147.32)
+			(xy 132.08 153.67) (xy 139.7 153.67)
 		)
 		(stroke
 			(width 0)
@@ -9804,7 +10483,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 123.19) (xy 116.84 123.19)
+			(xy 99.06 134.62) (xy 110.49 134.62)
 		)
 		(stroke
 			(width 0)
@@ -9814,13 +10493,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 72.39) (xy 173.99 72.39)
+			(xy 165.1 72.39) (xy 173.99 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2986091-acf3-4f5c-bfeb-f56af803967e")
+	)
+	(wire
+		(pts
+			(xy 107.95 93.98) (xy 107.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59eae26-dfa5-4673-83ef-678c7a1ed6d7")
 	)
 	(wire
 		(pts
@@ -9841,6 +10530,16 @@
 			(type default)
 		)
 		(uuid "b968e395-083a-48d6-8c5d-24f47c4c2b53")
+	)
+	(wire
+		(pts
+			(xy 165.1 29.21) (xy 180.34 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b999734d-568a-4883-9459-c6a346f436a7")
 	)
 	(wire
 		(pts
@@ -9874,7 +10573,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 105.41) (xy 156.21 105.41)
+			(xy 143.51 116.84) (xy 149.86 116.84)
 		)
 		(stroke
 			(width 0)
@@ -9901,6 +10600,16 @@
 			(type default)
 		)
 		(uuid "c16b1faf-47d9-49fa-9e35-f6c61ddf79e0")
+	)
+	(wire
+		(pts
+			(xy 180.34 30.48) (xy 180.34 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e068ec-9202-469b-9f2e-07ac4e8821fa")
 	)
 	(wire
 		(pts
@@ -9984,7 +10693,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 26.67) (xy 135.89 26.67)
+			(xy 127 26.67) (xy 134.62 26.67)
 		)
 		(stroke
 			(width 0)
@@ -9994,7 +10703,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 170.18) (xy 139.7 168.91)
+			(xy 132.08 176.53) (xy 132.08 175.26)
 		)
 		(stroke
 			(width 0)
@@ -10044,7 +10753,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 49.53) (xy 135.89 49.53)
+			(xy 127 49.53) (xy 134.62 49.53)
 		)
 		(stroke
 			(width 0)
@@ -10064,7 +10773,27 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 168.91) (xy 128.27 170.18)
+			(xy 187.96 26.67) (xy 196.85 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5c4720-88b6-4fc4-aedb-15ac03dfb6d8")
+	)
+	(wire
+		(pts
+			(xy 104.14 72.39) (xy 107.95 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce79081d-ecec-48a2-a615-cb0075b22f70")
+	)
+	(wire
+		(pts
+			(xy 120.65 175.26) (xy 120.65 176.53)
 		)
 		(stroke
 			(width 0)
@@ -10074,7 +10803,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 111.76) (xy 116.84 111.76)
+			(xy 213.36 73.66) (xy 213.36 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced9b3b7-43c0-4cfb-aa47-71d1386ed355")
+	)
+	(wire
+		(pts
+			(xy 101.6 123.19) (xy 110.49 123.19)
 		)
 		(stroke
 			(width 0)
@@ -10084,7 +10823,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 31.75) (xy 173.99 31.75)
+			(xy 165.1 31.75) (xy 173.99 31.75)
 		)
 		(stroke
 			(width 0)
@@ -10104,7 +10843,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 59.69) (xy 173.99 59.69)
+			(xy 165.1 59.69) (xy 173.99 59.69)
 		)
 		(stroke
 			(width 0)
@@ -10114,17 +10853,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 29.21) (xy 193.04 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfe60906-2238-4bbc-bce0-638f218258bf")
-	)
-	(wire
-		(pts
-			(xy 128.27 74.93) (xy 135.89 74.93)
+			(xy 127 74.93) (xy 134.62 74.93)
 		)
 		(stroke
 			(width 0)
@@ -10134,7 +10863,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 156.21) (xy 158.75 161.29)
+			(xy 151.13 162.56) (xy 151.13 167.64)
 		)
 		(stroke
 			(width 0)
@@ -10144,7 +10873,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 111.76) (xy 144.78 111.76)
+			(xy 135.89 123.19) (xy 138.43 123.19)
 		)
 		(stroke
 			(width 0)
@@ -10204,13 +10933,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 161.29) (xy 170.18 161.29)
+			(xy 151.13 167.64) (xy 162.56 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d920badb-1949-4079-8d38-a40d8502e3a6")
+	)
+	(wire
+		(pts
+			(xy 204.47 77.47) (xy 204.47 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e04530-6393-4d39-a03f-58b2b1bcd6bf")
 	)
 	(wire
 		(pts
@@ -10224,17 +10963,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 36.83) (xy 196.85 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dab671d4-064e-4bc5-87c4-970cc5f2aa49")
-	)
-	(wire
-		(pts
-			(xy 116.84 111.76) (xy 121.92 111.76)
+			(xy 110.49 123.19) (xy 115.57 123.19)
 		)
 		(stroke
 			(width 0)
@@ -10254,6 +10983,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 26.67) (xy 196.85 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb7e0fa-2eaf-48ff-b3d4-2c71227782f8")
+	)
+	(wire
+		(pts
 			(xy 55.88 160.02) (xy 50.8 160.02)
 		)
 		(stroke
@@ -10264,7 +11003,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 59.69) (xy 135.89 59.69)
+			(xy 127 59.69) (xy 134.62 59.69)
 		)
 		(stroke
 			(width 0)
@@ -10274,7 +11013,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 147.32) (xy 147.32 156.21)
+			(xy 139.7 153.67) (xy 139.7 162.56)
 		)
 		(stroke
 			(width 0)
@@ -10294,7 +11033,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 39.37) (xy 173.99 39.37)
+			(xy 165.1 34.29) (xy 173.99 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e037f6e0-17b3-4f36-a9c1-28f210cc6f60")
+	)
+	(wire
+		(pts
+			(xy 165.1 39.37) (xy 173.99 39.37)
 		)
 		(stroke
 			(width 0)
@@ -10314,7 +11063,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 163.83) (xy 105.41 163.83)
+			(xy 96.52 170.18) (xy 97.79 170.18)
 		)
 		(stroke
 			(width 0)
@@ -10324,7 +11073,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 67.31) (xy 173.99 67.31)
+			(xy 165.1 67.31) (xy 173.99 67.31)
 		)
 		(stroke
 			(width 0)
@@ -10334,7 +11083,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 158.75) (xy 128.27 158.75)
+			(xy 132.08 165.1) (xy 120.65 165.1)
 		)
 		(stroke
 			(width 0)
@@ -10344,7 +11093,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 69.85) (xy 135.89 69.85)
+			(xy 76.2 39.37) (xy 76.2 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e52c42cb-1a0b-43e2-9e64-3863966b3647")
+	)
+	(wire
+		(pts
+			(xy 127 69.85) (xy 134.62 69.85)
 		)
 		(stroke
 			(width 0)
@@ -10414,6 +11173,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 39.37) (xy 196.85 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f4e1dd-4c80-4c72-910b-72c35b6542fe")
+	)
+	(wire
+		(pts
 			(xy 55.88 168.91) (xy 54.61 168.91)
 		)
 		(stroke
@@ -10424,7 +11193,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 147.32) (xy 137.16 147.32)
+			(xy 132.08 153.67) (xy 129.54 153.67)
 		)
 		(stroke
 			(width 0)
@@ -10474,7 +11243,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 67.31) (xy 135.89 67.31)
+			(xy 127 67.31) (xy 134.62 67.31)
 		)
 		(stroke
 			(width 0)
@@ -10524,7 +11293,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 147.32) (xy 128.27 147.32)
+			(xy 101.6 93.98) (xy 107.95 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed520e2-27c4-4957-8ed8-64f76eb530dd")
+	)
+	(wire
+		(pts
+			(xy 124.46 153.67) (xy 120.65 153.67)
 		)
 		(stroke
 			(width 0)
@@ -10534,13 +11313,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 180.34) (xy 128.27 180.34)
+			(xy 132.08 186.69) (xy 120.65 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f03828ec-c7b7-4d4b-b952-4f0a93e40456")
+	)
+	(wire
+		(pts
+			(xy 104.14 69.85) (xy 107.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32921e5-d3e8-4346-864e-a75a7b267b67")
 	)
 	(wire
 		(pts
@@ -10554,7 +11343,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 168.91) (xy 170.18 168.91)
+			(xy 148.59 175.26) (xy 162.56 175.26)
 		)
 		(stroke
 			(width 0)
@@ -10564,7 +11353,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 99.06) (xy 171.45 100.33)
+			(xy 165.1 110.49) (xy 165.1 111.76)
 		)
 		(stroke
 			(width 0)
@@ -10634,7 +11423,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 156.21) (xy 158.75 156.21)
+			(xy 148.59 162.56) (xy 151.13 162.56)
 		)
 		(stroke
 			(width 0)
@@ -10662,8 +11451,18 @@
 		)
 		(uuid "fc850e7e-e281-441c-9173-aef96d1f12bd")
 	)
+	(wire
+		(pts
+			(xy 107.95 72.39) (xy 107.95 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdde690f-d626-4022-a124-07a1df46e02b")
+	)
 	(label "CLOCK"
-		(at 128.27 72.39 0)
+		(at 127 72.39 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -10683,7 +11482,7 @@
 		(uuid "03379fff-45c2-4ac8-908e-f59ade5ded63")
 	)
 	(label "LATCH"
-		(at 128.27 74.93 0)
+		(at 127 74.93 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -10703,7 +11502,7 @@
 		(uuid "07086298-eb7a-4bee-a154-58138725d8ff")
 	)
 	(label "LEFT_OUT"
-		(at 170.18 147.32 180)
+		(at 162.56 153.67 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -10743,7 +11542,7 @@
 		(uuid "1ff264e5-5cf1-445d-93c6-f788e8b4f118")
 	)
 	(label "L"
-		(at 106.68 156.21 0)
+		(at 99.06 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10763,7 +11562,7 @@
 		(uuid "222902a1-7f76-41be-99e0-84082ab3cb43")
 	)
 	(label "GP_12"
-		(at 128.27 64.77 0)
+		(at 127 64.77 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -10773,7 +11572,7 @@
 		(uuid "24448c0c-a869-450b-8e2d-338bdc093089")
 	)
 	(label "GND"
-		(at 128.27 31.75 0)
+		(at 127 31.75 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -10783,7 +11582,7 @@
 		(uuid "25324a29-4d7c-4129-84a2-24c766ca4d68")
 	)
 	(label "R"
-		(at 121.92 168.91 0)
+		(at 114.3 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10883,7 +11682,7 @@
 		(uuid "3d5172e0-6294-4b37-b8d8-5e5400f5a17d")
 	)
 	(label "GP_10"
-		(at 128.27 59.69 0)
+		(at 127 59.69 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -10892,8 +11691,18 @@
 		)
 		(uuid "3eb885bb-eb76-45b6-8823-f5c0b0df7336")
 	)
+	(label "RUN"
+		(at 17.78 176.53 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f34375b-224b-466a-9620-0766574d8ec0")
+	)
 	(label "GND"
-		(at 128.27 44.45 0)
+		(at 127 44.45 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -10901,6 +11710,26 @@
 			(justify left bottom)
 		)
 		(uuid "3f6b44c8-5cb2-4efc-845b-a9154ab7647d")
+	)
+	(label "+3V3"
+		(at 173.99 36.83 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "4050cc3c-4962-4744-9341-ef362681fd0d")
+	)
+	(label "+3V3"
+		(at 107.95 69.85 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "40c1c62d-a1d9-4945-9103-2b2fad62503b")
 	)
 	(label "GP_12"
 		(at 85.09 102.87 180)
@@ -10911,6 +11740,16 @@
 			(justify right bottom)
 		)
 		(uuid "4281d04e-a8ee-4441-a3e5-b7571f1bbf56")
+	)
+	(label "+5V_VOUT"
+		(at 110.49 91.44 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "4537251a-19e5-478e-aad9-a5d87d7ec3a3")
 	)
 	(label "VGA_VS"
 		(at 27.94 92.71 0)
@@ -10982,8 +11821,8 @@
 		)
 		(uuid "5cf23928-515d-4fc3-a4e8-89f4eafd3d1a")
 	)
-	(label "+5V_VOUT"
-		(at 93.98 31.75 180)
+	(label "+5V_IN"
+		(at 95.25 31.75 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -10993,7 +11832,7 @@
 		(uuid "6151795b-c679-4f5d-896e-7eab44268466")
 	)
 	(label "GP_9"
-		(at 128.27 54.61 0)
+		(at 127 54.61 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -11013,7 +11852,7 @@
 		(uuid "639d5bb5-1806-4b06-b409-dda9d82386c2")
 	)
 	(label "GND"
-		(at 128.27 57.15 0)
+		(at 127 57.15 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -11021,6 +11860,16 @@
 			(justify left bottom)
 		)
 		(uuid "66adbdd3-6635-4946-bfb3-23c6b4ea13ff")
+	)
+	(label "+3V3"
+		(at 199.39 73.66 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "673e8bf7-b4b9-4c3b-8625-a5be4c0aeaac")
 	)
 	(label "PS{slash}2_DATA_3V"
 		(at 279.4 45.72 180)
@@ -11033,7 +11882,7 @@
 		(uuid "6a5cb793-e52d-45fc-974e-ebfb6724a6e9")
 	)
 	(label "GP_7"
-		(at 128.27 49.53 0)
+		(at 127 49.53 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -11043,7 +11892,7 @@
 		(uuid "6ac5fa05-9119-4e14-80e7-8942d6548f92")
 	)
 	(label "GP_11"
-		(at 128.27 62.23 0)
+		(at 127 62.23 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -11103,7 +11952,7 @@
 		(uuid "724c903e-6aa7-453b-b2c7-86f0b8f18a97")
 	)
 	(label "R"
-		(at 106.68 161.29 0)
+		(at 99.06 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11123,7 +11972,7 @@
 		(uuid "750f3ed4-daf5-41c2-9e47-f42ef67c5ac9")
 	)
 	(label "GP_8"
-		(at 128.27 52.07 0)
+		(at 127 52.07 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -11153,7 +12002,7 @@
 		(uuid "7eeea3e9-7dea-4b5e-8b58-90335c4c3776")
 	)
 	(label "LOAD_IN_D"
-		(at 182.88 99.06 180)
+		(at 176.53 110.49 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -11193,7 +12042,7 @@
 		(uuid "92faa24e-d5a1-458a-9fa2-f1e893148017")
 	)
 	(label "GND"
-		(at 128.27 69.85 0)
+		(at 127 69.85 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -11242,18 +12091,18 @@
 		)
 		(uuid "9ac0fdeb-2911-4235-84bd-2aa23468a54d")
 	)
-	(label "+5V"
+	(label "+5V_VOUT"
 		(at 26.67 181.61 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left bottom)
 		)
 		(uuid "9b4c1d8a-1fc8-4f90-af89-13c5b6ea901e")
 	)
 	(label "+5V_VOUT"
-		(at 175.26 26.67 180)
+		(at 173.99 26.67 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -11263,7 +12112,7 @@
 		(uuid "9d846e51-8251-447a-88c3-0e95f786adbb")
 	)
 	(label "GP_1"
-		(at 128.27 29.21 0)
+		(at 127 29.21 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -11333,7 +12182,7 @@
 		(uuid "a953ebd2-6863-4e4b-821d-4cc0f4ef8779")
 	)
 	(label "GP_0"
-		(at 128.27 26.67 0)
+		(at 127 26.67 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -11382,7 +12231,7 @@
 		)
 		(uuid "b7e9b2d7-f66c-4ff7-a709-43807d8c9a84")
 	)
-	(label "GND"
+	(label "RST"
 		(at 26.67 176.53 0)
 		(effects
 			(font
@@ -11423,7 +12272,7 @@
 		(uuid "c0ee8b2d-b50e-4516-ac21-13fa169ae3a2")
 	)
 	(label "GP_6"
-		(at 128.27 46.99 0)
+		(at 127 46.99 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -11462,6 +12311,16 @@
 		)
 		(uuid "cbb2795b-df04-4666-a521-3085612a3ebc")
 	)
+	(label "GP_23"
+		(at 173.99 34.29 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd540286-55f3-49a0-8abc-33a0d6c97912")
+	)
 	(label "GND"
 		(at 173.99 44.45 180)
 		(effects
@@ -11473,7 +12332,7 @@
 		(uuid "cd76db5d-a387-40d2-8fad-e65a7f50e634")
 	)
 	(label "L"
-		(at 121.92 147.32 0)
+		(at 114.3 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11533,7 +12392,7 @@
 		(uuid "d49aa42d-5519-49db-8b19-7e7e32240aa4")
 	)
 	(label "BEEP_OUT"
-		(at 170.18 161.29 180)
+		(at 162.56 167.64 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -11593,7 +12452,7 @@
 		(uuid "dec40004-88ea-4321-8dde-33955cc30e48")
 	)
 	(label "LOAD_IN_L"
-		(at 109.22 111.76 0)
+		(at 102.87 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11602,11 +12461,11 @@
 		)
 		(uuid "e1b7185a-016e-4ae7-9057-8cbccc2cd118")
 	)
-	(label "RUN"
+	(label "GP_23"
 		(at 69.85 176.53 180)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify right bottom)
 		)
@@ -11632,6 +12491,16 @@
 		)
 		(uuid "e5228001-ab42-421c-a2db-2032d209d24f")
 	)
+	(label "+5V_IN"
+		(at 173.99 29.21 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9432ead-715e-416c-9025-9f082fd612bb")
+	)
 	(label "DATA1"
 		(at 69.85 138.43 180)
 		(effects
@@ -11652,11 +12521,11 @@
 		)
 		(uuid "eae0def6-d8f5-494a-8b7f-c4de2522a82c")
 	)
-	(label "+5V"
+	(label "+5V_VOUT"
 		(at 69.85 181.61 180)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify right bottom)
 		)
@@ -11673,7 +12542,7 @@
 		(uuid "f17b375f-9ae7-49d4-8c52-739c5038f952")
 	)
 	(label "GP_13"
-		(at 128.27 67.31 0)
+		(at 127 67.31 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -11683,7 +12552,7 @@
 		(uuid "f35f4461-f9ba-4670-b6c5-c447cbe4a991")
 	)
 	(label "RIGHT_OUT"
-		(at 170.18 168.91 180)
+		(at 162.56 175.26 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -11692,7 +12561,7 @@
 		)
 		(uuid "f385e15e-5be7-4992-88d0-493bbc1157fd")
 	)
-	(label "+5V_VOUT"
+	(label "+5V_IN"
 		(at 69.85 179.07 180)
 		(effects
 			(font
@@ -11722,19 +12591,9 @@
 		)
 		(uuid "fe6e3047-b232-4354-828e-0305f3f6ecd6")
 	)
-	(label "+5V_IN"
-		(at 181.61 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ff6dd9f4-3a5b-4488-bd7d-6e4f2bfd35ec")
-	)
 	(symbol
 		(lib_id "Device:C")
-		(at 186.69 92.71 0)
+		(at 180.34 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11744,7 +12603,7 @@
 		(dnp no)
 		(uuid "004cd576-48ff-43c8-8a18-850122c1f31d")
 		(property "Reference" "C12"
-			(at 189.611 91.5416 0)
+			(at 183.261 102.9716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11754,8 +12613,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 189.611 93.853 0)
+		(property "Value" "100nF"
+			(at 183.261 105.283 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11766,7 +12625,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 187.6552 96.52 0)
+			(at 181.3052 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11777,7 +12636,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 92.71 0)
+			(at 180.34 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11788,7 +12647,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 186.69 92.71 0)
+			(at 180.34 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11805,7 +12664,7 @@
 			(uuid "5bcf60d3-f932-4fc7-9d56-42c8acb5baa2")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "C12")
 					(unit 1)
@@ -11883,9 +12742,98 @@
 			(uuid "38c5f247-9af0-4854-8233-62889d1ea337")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 91.44 167.64 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "078e4e83-52f1-4e6f-ace7-7f3b170ac2bf")
+		(property "Reference" "J8"
+			(at 89.916 155.448 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Audio OUT"
+			(at 89.916 152.146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3525N_Horizontal"
+			(at 91.44 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 91.44 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "R"
+			(uuid "aa4aee5a-80e4-4572-8462-de1b4b1093b4")
+		)
+		(pin "S"
+			(uuid "65a9ebb2-ca97-464c-96fb-efeab7868d51")
+		)
+		(pin "RN"
+			(uuid "bc4b2fa9-e6ea-4d86-996b-fb1c4c4bea4f")
+		)
+		(pin "T"
+			(uuid "94d2b90a-46dd-4839-b8a4-fb4cb435a619")
+		)
+		(pin "TN"
+			(uuid "30a86324-8de8-4f01-bfdd-02c9632bff96")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -11898,7 +12846,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11965,7 +12913,7 @@
 			(uuid "913aa5aa-56d3-47d7-9cbe-f19465c757ee")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "NT5")
 					(unit 1)
@@ -12044,7 +12992,7 @@
 			(uuid "234772b6-7b07-4af7-96d4-191471cdd775")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR14")
 					(unit 1)
@@ -12054,7 +13002,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 165.1 0)
+		(at 97.79 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12064,7 +13012,7 @@
 		(dnp no)
 		(uuid "0fe3bae5-eb81-4cf5-88af-994157072cae")
 		(property "Reference" "#PWR9"
-			(at 105.41 171.45 0)
+			(at 97.79 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12075,7 +13023,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.537 169.4942 0)
+			(at 97.917 175.8442 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12085,7 +13033,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 165.1 0)
+			(at 97.79 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12096,7 +13044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 165.1 0)
+			(at 97.79 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12107,7 +13055,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 165.1 0)
+			(at 97.79 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12121,7 +13069,7 @@
 			(uuid "a840154d-9bbb-4a1b-8bd6-5d0bc0e1f2bc")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR9")
 					(unit 1)
@@ -12131,7 +13079,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 152.4 92.71 0)
+		(at 146.05 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12142,7 +13090,7 @@
 		(fields_autoplaced yes)
 		(uuid "1007e25b-cbb6-4561-907c-66b03456e7da")
 		(property "Reference" "R30"
-			(at 154.94 91.4399 0)
+			(at 148.59 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12153,7 +13101,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 154.94 93.9799 0)
+			(at 148.59 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12164,7 +13112,7 @@
 			)
 		)
 		(property "Footprint" "_my_Resistors:R_Axial_DIN0207_L6.3mm_D2.2mm_P10.16mm_Horizontal"
-			(at 150.622 92.71 90)
+			(at 144.272 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12175,7 +13123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 92.71 0)
+			(at 146.05 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12186,7 +13134,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 152.4 92.71 0)
+			(at 146.05 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12203,7 +13151,7 @@
 			(uuid "797f5b3b-a845-4271-a91b-12ff94eb03b1")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R30")
 					(unit 1)
@@ -12213,7 +13161,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 152.4 156.21 90)
+		(at 144.78 162.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12223,7 +13171,7 @@
 		(dnp no)
 		(uuid "123136fe-674a-4c92-a6d2-95459c6b9926")
 		(property "Reference" "R23"
-			(at 149.86 153.67 90)
+			(at 142.24 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12233,7 +13181,7 @@
 			)
 		)
 		(property "Value" "2K"
-			(at 153.67 153.67 90)
+			(at 146.05 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12243,7 +13191,7 @@
 			)
 		)
 		(property "Footprint" "_my_Resistors:R_Axial_DIN0207_L6.3mm_D2.2mm_P10.16mm_Horizontal"
-			(at 152.4 157.988 90)
+			(at 144.78 164.338 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12254,7 +13202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 156.21 0)
+			(at 144.78 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12265,7 +13213,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 152.4 156.21 0)
+			(at 144.78 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12282,7 +13230,7 @@
 			(uuid "84979044-3f29-4e3d-a147-8b3c2fff3d18")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R23")
 					(unit 1)
@@ -12292,7 +13240,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 134.62 168.91 270)
+		(at 127 175.26 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12303,7 +13251,7 @@
 		(fields_autoplaced yes)
 		(uuid "12b844c9-6cfc-4d78-9272-faf820d70cbe")
 		(property "Reference" "C6"
-			(at 135.1661 162.56 90)
+			(at 127.5461 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12312,8 +13260,8 @@
 				)
 			)
 		)
-		(property "Value" "10u"
-			(at 135.1661 165.1 90)
+		(property "Value" "10uF"
+			(at 127.5461 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12323,7 +13271,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 134.62 168.91 0)
+			(at 127 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12334,7 +13282,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 168.91 0)
+			(at 127 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12345,7 +13293,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 134.62 168.91 0)
+			(at 127 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12362,7 +13310,7 @@
 			(uuid "47a5f798-a511-4583-912f-a5159e45499c")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "C6")
 					(unit 1)
@@ -12372,7 +13320,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 181.61 0)
+		(at 120.65 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12382,7 +13330,7 @@
 		(dnp no)
 		(uuid "13d9bbd6-5357-4a34-817d-b156d7ea0529")
 		(property "Reference" "#PWR102"
-			(at 128.27 187.96 0)
+			(at 120.65 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12393,7 +13341,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.397 186.0042 0)
+			(at 120.777 192.3542 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12403,7 +13351,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 181.61 0)
+			(at 120.65 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12414,7 +13362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 181.61 0)
+			(at 120.65 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12425,7 +13373,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 181.61 0)
+			(at 120.65 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12439,7 +13387,7 @@
 			(uuid "1a5c1403-d794-410c-be76-86a488fe8ed1")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR102")
 					(unit 1)
@@ -12516,7 +13464,7 @@
 			(uuid "933718ba-a1f8-4deb-8126-e704d6421716")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR106")
 					(unit 1)
@@ -12595,7 +13543,7 @@
 			(uuid "d6fb5cad-2577-4abb-9d6a-2426182bff55")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R3")
 					(unit 1)
@@ -12675,7 +13623,7 @@
 			(uuid "7af17627-8444-4f06-bad3-f08f9eda35f7")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "J2")
 					(unit 1)
@@ -12705,7 +13653,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 261.112 130.556 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12756,7 +13704,7 @@
 			(uuid "6a15a93f-5db3-489e-a824-c53e2c486abd")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "C8")
 					(unit 1)
@@ -12835,7 +13783,7 @@
 			(uuid "1e68c5bd-4984-47a0-b637-0aca3c7d4ca3")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R8")
 					(unit 1)
@@ -12844,85 +13792,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 196.85 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "25d7e394-9570-4fbf-8f54-f24074e497e3")
-		(property "Reference" "#PWR2"
-			(at 196.85 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 197.866 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 196.85 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "27e63b57-a39d-4405-8d04-4ad2b9494e84")
-		)
-		(instances
-			(project "schematics_rp2040_black_vga"
-				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
-					(reference "#PWR2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 152.4 168.91 90)
+		(at 144.78 175.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12932,7 +13803,7 @@
 		(dnp no)
 		(uuid "26bf4643-c961-4926-9d2c-68ab08b431d6")
 		(property "Reference" "R25"
-			(at 150.368 166.116 90)
+			(at 142.748 172.466 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12942,7 +13813,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 153.924 166.116 90)
+			(at 146.304 172.466 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12952,7 +13823,7 @@
 			)
 		)
 		(property "Footprint" "_my_Resistors:R_Axial_DIN0207_L6.3mm_D2.2mm_P10.16mm_Horizontal"
-			(at 152.4 170.688 90)
+			(at 144.78 177.038 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12963,7 +13834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 168.91 0)
+			(at 144.78 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12974,7 +13845,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 152.4 168.91 0)
+			(at 144.78 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12991,9 +13862,91 @@
 			(uuid "eba25840-26de-47c2-96c0-7c92a22dba51")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 180.34 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29410125-5c85-4f40-9242-f7dab46d5fb4")
+		(property "Reference" "SW1"
+			(at 184.15 55.8799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RESET"
+			(at 184.15 58.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SKHH_Angled"
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 180.34 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8903516b-5b29-4114-8e1a-a022954e2c4c")
+		)
+		(pin "2"
+			(uuid "4822e3c8-c6c4-46a5-b367-42bb4b7250f0")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -13070,7 +14023,7 @@
 			(uuid "1269fda9-d545-45e5-9e57-7982fc54bc14")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#FLG1")
 					(unit 1)
@@ -13079,98 +14032,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:AudioJack3_SwitchTR")
-		(at 99.06 161.29 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "29aab426-5ce0-4495-876c-1256f87c7398")
-		(property "Reference" "J8"
-			(at 98.552 148.844 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Audio OUT"
-			(at 102.362 145.542 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3535NG_Horizontal"
-			(at 99.06 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "R"
-			(uuid "01974123-8e3a-4a5b-8b03-e48b7a5f0744")
-		)
-		(pin "RN"
-			(uuid "9ce09a7f-4cd8-4d0c-81f8-33815889f765")
-		)
-		(pin "S"
-			(uuid "d5d1c995-627e-4758-8b51-7a771c422327")
-		)
-		(pin "T"
-			(uuid "bf548985-c411-4363-b1b1-daa85598d937")
-		)
-		(pin "TN"
-			(uuid "3d52f852-e20a-47f8-9267-8e89da3df237")
-		)
-		(instances
-			(project "schematics_rp2040_black_vga"
-				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 152.4 147.32 90)
+		(at 144.78 153.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13181,7 +14044,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c5c48d7-87b5-44e8-81ef-68ff96b4982f")
 		(property "Reference" "R21"
-			(at 152.4 140.97 90)
+			(at 144.78 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13191,7 +14054,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 152.4 143.51 90)
+			(at 144.78 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13201,7 +14064,7 @@
 			)
 		)
 		(property "Footprint" "_my_Resistors:R_Axial_DIN0207_L6.3mm_D2.2mm_P10.16mm_Horizontal"
-			(at 152.4 149.098 90)
+			(at 144.78 155.448 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13212,7 +14075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 147.32 0)
+			(at 144.78 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13223,7 +14086,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 152.4 147.32 0)
+			(at 144.78 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13240,7 +14103,7 @@
 			(uuid "9b562e18-1601-483e-b13b-4036ad2d3753")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R21")
 					(unit 1)
@@ -13317,7 +14180,7 @@
 			(uuid "3a2568c1-34bb-4162-ae3e-7eec670dd2a3")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR104")
 					(unit 1)
@@ -13327,7 +14190,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 139.7 173.99 0)
+		(at 132.08 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13337,7 +14200,7 @@
 		(dnp no)
 		(uuid "31dcc6a3-07ab-4220-93e5-58bcb6c208f0")
 		(property "Reference" "C7"
-			(at 142.621 172.8216 0)
+			(at 135.001 179.1716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13347,8 +14210,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
-			(at 142.621 175.133 0)
+		(property "Value" "10nF"
+			(at 135.001 181.483 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13359,7 +14222,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 140.6652 177.8 0)
+			(at 133.0452 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13370,7 +14233,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 173.99 0)
+			(at 132.08 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13381,7 +14244,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 139.7 173.99 0)
+			(at 132.08 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13398,7 +14261,7 @@
 			(uuid "d01e2b45-81ed-410b-b2af-a23542957af8")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "C7")
 					(unit 1)
@@ -13408,7 +14271,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 160.02 105.41 90)
+		(at 153.67 116.84 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13419,7 +14282,7 @@
 		(fields_autoplaced yes)
 		(uuid "38480551-1e41-49b2-a684-ddd8be045aaf")
 		(property "Reference" "R29"
-			(at 160.02 99.06 90)
+			(at 153.67 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13429,7 +14292,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 160.02 101.6 90)
+			(at 153.67 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13439,7 +14302,7 @@
 			)
 		)
 		(property "Footprint" "_my_Resistors:R_Axial_DIN0207_L6.3mm_D2.2mm_P10.16mm_Horizontal"
-			(at 160.02 107.188 90)
+			(at 153.67 118.618 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13450,7 +14313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 105.41 0)
+			(at 153.67 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13461,7 +14324,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 160.02 105.41 0)
+			(at 153.67 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13478,7 +14341,7 @@
 			(uuid "ea318e0d-fc95-4b07-bd07-5f11f9102160")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R29")
 					(unit 1)
@@ -13488,7 +14351,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 99.06 0)
+		(at 180.34 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13498,7 +14361,7 @@
 		(dnp no)
 		(uuid "388a7122-5a99-45d4-8579-77062100d6e2")
 		(property "Reference" "#PWR110"
-			(at 186.69 105.41 0)
+			(at 180.34 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13509,7 +14372,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.817 103.4542 0)
+			(at 180.467 114.8842 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13519,7 +14382,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 99.06 0)
+			(at 180.34 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13530,7 +14393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 99.06 0)
+			(at 180.34 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13541,7 +14404,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 188.468 112.268 0)
+			(at 182.118 123.698 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13555,7 +14418,7 @@
 			(uuid "5a0da798-a740-47ff-8222-cf68fee6bd7e")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR110")
 					(unit 1)
@@ -13570,7 +14433,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13585,7 +14448,7 @@
 				)
 			)
 		)
-		(property "Value" "DE15_Socket_HighDensity_MountingHoles"
+		(property "Value" "DE15_Socket"
 			(at 34.29 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13677,7 +14540,7 @@
 			(uuid "988faa13-fe56-41c5-883d-6f80010480e2")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "J2B1")
 					(unit 1)
@@ -13687,7 +14550,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NPN")
-		(at 149.86 111.76 0)
+		(at 143.51 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13698,7 +14561,7 @@
 		(fields_autoplaced yes)
 		(uuid "4138a861-fa5c-462c-9038-0a7ccdd343b9")
 		(property "Reference" "Q1"
-			(at 154.94 110.4899 0)
+			(at 148.59 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13709,7 +14572,7 @@
 			)
 		)
 		(property "Value" "S9014"
-			(at 154.94 113.0299 0)
+			(at 148.59 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13719,8 +14582,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 154.94 109.22 0)
+		(property "Footprint" "_my_Transistors:TO-92_Inline_Wide_S9014"
+			(at 148.59 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13731,7 +14594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 111.76 0)
+			(at 143.51 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13742,7 +14605,7 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 149.86 111.76 0)
+			(at 143.51 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13762,9 +14625,90 @@
 			(uuid "219d3090-fc79-49ca-a1ab-290165b2682c")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 187.96 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "470b0774-ef39-4413-a78b-3e4ceee7b2c1")
+		(property "Reference" "C17"
+			(at 192.278 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 194.31 28.956 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 187.96 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 187.96 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "adb440b0-3d52-4ecc-a031-fa06daf30327")
+		)
+		(pin "1"
+			(uuid "e0ee7e53-d6b6-4b0d-b50f-19a2fb085d57")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -13841,7 +14785,7 @@
 			(uuid "e5a07d12-177b-409e-8ab4-1704033eaff7")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R12")
 					(unit 1)
@@ -13859,7 +14803,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4dac7839-3c76-4dea-b5c3-ca236263525e")
 		(property "Reference" "#PWR13"
 			(at 111.76 33.02 0)
@@ -13872,14 +14815,15 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 111.76 24.13 0)
+		(property "Value" "+5V_RAW"
+			(at 110.49 24.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13919,7 +14863,7 @@
 			(uuid "092ed5ee-32e3-493e-bc1b-57091e04279b")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR13")
 					(unit 1)
@@ -13958,7 +14902,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "_my_Connectors:Connector_Mini-DIN_Female_6Pin_2rows"
 			(at 226.06 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -13969,7 +14913,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf"
+		(property "Datasheet" ""
 			(at 226.06 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -14010,7 +14954,7 @@
 			(uuid "577e6283-8d72-424d-aac0-96c47a56b69f")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "J4")
 					(unit 1)
@@ -14019,8 +14963,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 127 111.76 270)
+		(lib_id "power:GND")
+		(at 180.34 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14028,31 +14972,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5349114c-a3b3-4d16-a255-f22c8fc5f649")
-		(property "Reference" "C11"
-			(at 125.73 103.886 90)
+		(uuid "531a236c-f12c-4b05-98be-739c4f86b99e")
+		(property "Reference" "#PWR03"
+			(at 180.34 45.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 125.73 107.188 90)
+		(property "Value" "GND"
+			(at 180.594 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 123.19 112.7252 0)
+		(property "Footprint" ""
+			(at 180.34 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14063,7 +15006,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 111.76 0)
+			(at 180.34 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27e122ea-7eb5-4781-b47e-340b039271f0")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 120.65 123.19 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5349114c-a3b3-4d16-a255-f22c8fc5f649")
+		(property "Reference" "C11"
+			(at 119.38 115.316 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 119.38 118.618 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 116.84 124.1552 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14074,7 +15095,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 127 111.76 0)
+			(at 120.65 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14091,7 +15112,7 @@
 			(uuid "8c18783a-bdf3-41d9-9974-cc0d7065485a")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "C11")
 					(unit 1)
@@ -14284,7 +15305,7 @@
 			(uuid "5e7ee859-5334-4a0e-a074-401851401493")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "J5")
 					(unit 1)
@@ -14361,7 +15382,7 @@
 			(uuid "3b40291f-4f85-45a3-b281-e0397a04df54")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR8")
 					(unit 1)
@@ -14440,7 +15461,7 @@
 			(uuid "64d2f51e-2cd0-4a96-bb46-ded41be616e0")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R9")
 					(unit 1)
@@ -14522,7 +15543,7 @@
 			(uuid "d8a9a68f-6d0d-4b77-8e5a-64a391a56a9f")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R27")
 					(unit 1)
@@ -14601,7 +15622,7 @@
 			(uuid "ad119ffa-8b95-4bb7-b99c-7314fd9ad79c")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR10")
 					(unit 1)
@@ -14643,7 +15664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "_my_Connectors:DB9_PinHeader_1x05_P2.54mm_Pins_2,3,4,6,8"
 			(at 266.7 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -14704,7 +15725,7 @@
 			(uuid "b99486b4-fc80-4898-9617-fae5c8ab8702")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "J6")
 					(unit 1)
@@ -14781,9 +15802,98 @@
 			(uuid "524b1b11-c5fb-40f7-9ad7-c8c2951bfa02")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_SwitchTR")
+		(at 93.98 132.08 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5fee64b1-3ca2-4b0c-b551-41dc0096fa32")
+		(property "Reference" "J9"
+			(at 92.456 119.888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Audio IN"
+			(at 92.456 116.586 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3525N_Horizontal"
+			(at 93.98 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)"
+			(at 93.98 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "R"
+			(uuid "8421c8d2-ef36-47ca-b006-00452fd05c82")
+		)
+		(pin "S"
+			(uuid "ec170fed-af1c-4678-a6b2-659121f7b434")
+		)
+		(pin "RN"
+			(uuid "5295096a-6f07-4724-93ec-39d9619c000d")
+		)
+		(pin "T"
+			(uuid "55d6e468-a568-4599-96d3-6c81eba1427a")
+		)
+		(pin "TN"
+			(uuid "5ef0dcca-2e29-4fc2-8582-da11c6facb22")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -14860,7 +15970,7 @@
 			(uuid "80ba5717-54e2-4ace-b099-1422617798d4")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#FLG2")
 					(unit 1)
@@ -14878,7 +15988,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "61e074f2-2293-40fb-accc-744b78f90df1")
 		(property "Reference" "#PWR5"
 			(at 73.66 33.02 0)
@@ -14891,14 +16000,15 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 73.66 24.13 0)
+		(property "Value" "+5V_RAW"
+			(at 69.088 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -14938,7 +16048,7 @@
 			(uuid "fdffa3f6-2bae-41af-ade5-f0fd2dbd3a26")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR5")
 					(unit 1)
@@ -15016,7 +16126,7 @@
 			(uuid "fc11ce6a-2318-44b1-b41f-2ed8e796787d")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR12")
 					(unit 1)
@@ -15095,7 +16205,7 @@
 			(uuid "8773e59f-f7bf-439b-ae84-cf5c7bc09c03")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R11")
 					(unit 1)
@@ -15104,8 +16214,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 152.4 161.29 90)
+		(lib_id "Device:C_Polarized")
+		(at 213.36 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15113,9 +16223,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6e23c4a5-76b6-481b-9646-b218d757850c")
-		(property "Reference" "R24"
-			(at 149.86 158.75 90)
+		(uuid "6df895c4-30ed-4648-9c8a-6e6f7ccafda0")
+		(property "Reference" "C16"
+			(at 215.392 83.058 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15124,8 +16234,8 @@
 				)
 			)
 		)
-		(property "Value" "2K"
-			(at 153.67 158.75 90)
+		(property "Value" "100uF"
+			(at 217.678 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15134,8 +16244,8 @@
 				)
 			)
 		)
-		(property "Footprint" "_my_Resistors:R_Axial_DIN0207_L6.3mm_D2.2mm_P10.16mm_Horizontal"
-			(at 152.4 163.068 90)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+			(at 214.3252 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15146,7 +16256,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 161.29 0)
+			(at 213.36 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 213.36 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4c0418d-59ef-4324-a07c-128f23365984")
+		)
+		(pin "2"
+			(uuid "44fbcd46-0489-4d07-8bbe-c68e5acff456")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e23c4a5-76b6-481b-9646-b218d757850c")
+		(property "Reference" "R24"
+			(at 142.24 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2K"
+			(at 146.05 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_my_Resistors:R_Axial_DIN0207_L6.3mm_D2.2mm_P10.16mm_Horizontal"
+			(at 144.78 169.418 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15157,7 +16346,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 152.4 161.29 0)
+			(at 144.78 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15174,7 +16363,7 @@
 			(uuid "f3415208-53bb-4c4a-9f19-c1bcd51d11c2")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R24")
 					(unit 1)
@@ -15253,7 +16442,7 @@
 			(uuid "30ad74d4-842f-4194-8edf-979f7cf631dc")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R4")
 					(unit 1)
@@ -15262,86 +16451,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 193.04 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71ff847a-87d2-4b19-8107-a5aae4f3c78a")
-		(property "Reference" "#PWR3"
-			(at 193.04 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 193.04 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 193.04 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77518067-19d8-4087-a296-07b17aa3c0e0")
-		)
-		(instances
-			(project "schematics_rp2040_black_vga"
-				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
-					(reference "#PWR3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 171.45 92.71 0)
+		(at 165.1 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15352,7 +16463,7 @@
 		(fields_autoplaced yes)
 		(uuid "737939b9-2456-4a75-9621-ac8b59495252")
 		(property "Reference" "R31"
-			(at 173.99 91.4399 0)
+			(at 167.64 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15363,7 +16474,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 173.99 93.9799 0)
+			(at 167.64 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15374,7 +16485,7 @@
 			)
 		)
 		(property "Footprint" "_my_Resistors:R_Axial_DIN0207_L6.3mm_D2.2mm_P10.16mm_Horizontal"
-			(at 169.672 92.71 90)
+			(at 163.322 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15385,7 +16496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 92.71 0)
+			(at 165.1 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15396,7 +16507,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 171.45 92.71 0)
+			(at 165.1 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15413,7 +16524,7 @@
 			(uuid "f0765d1f-9bd5-49f4-b15b-e4038acbe41f")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R31")
 					(unit 1)
@@ -15452,7 +16563,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 269.24 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -15492,7 +16603,7 @@
 			(uuid "1cf11593-56b3-446e-a75d-504761e370f7")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "D3")
 					(unit 1)
@@ -15532,7 +16643,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x06_P1.00mm_Vertical"
 			(at 40.64 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -15602,7 +16713,7 @@
 			(uuid "24460421-0987-4570-8470-90b08a0fe8ca")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "J3")
 					(unit 1)
@@ -15612,7 +16723,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 123.19 0)
+		(at 107.95 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15620,9 +16731,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7c1ff453-2126-498d-9f87-2ed5e99b21a7")
-		(property "Reference" "#PWR109"
-			(at 171.45 129.54 0)
+		(fields_autoplaced yes)
+		(uuid "7a12fb6f-9f7a-47d2-b296-ea9162a6738c")
+		(property "Reference" "#PWR019"
+			(at 107.95 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15633,7 +16745,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.577 127.5842 0)
+			(at 107.95 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15643,7 +16755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 123.19 0)
+			(at 107.95 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15654,7 +16766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 123.19 0)
+			(at 107.95 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15665,7 +16777,161 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 123.19 0)
+			(at 107.95 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fdad4e32-ac65-4585-8c48-c732561633a1")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7bd5110f-bace-44ed-961b-46ee0ebe88bd")
+		(property "Reference" "#PWR017"
+			(at 180.34 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 69.088 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "300c13ed-7b58-4fc6-ad70-de367342b0ff")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c1ff453-2126-498d-9f87-2ed5e99b21a7")
+		(property "Reference" "#PWR109"
+			(at 165.1 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.227 139.0142 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15679,7 +16945,7 @@
 			(uuid "6fad1f9e-3cc0-4db1-bae4-72ca19a8149e")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR109")
 					(unit 1)
@@ -15689,7 +16955,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 135.89 111.76 90)
+		(at 129.54 123.19 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15700,7 +16966,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c37c696-f048-4607-9e55-8b6eb11c02a7")
 		(property "Reference" "R32"
-			(at 135.89 105.41 90)
+			(at 129.54 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15710,7 +16976,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 135.89 107.95 90)
+			(at 129.54 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15720,7 +16986,7 @@
 			)
 		)
 		(property "Footprint" "_my_Resistors:R_Axial_DIN0207_L6.3mm_D2.2mm_P10.16mm_Horizontal"
-			(at 135.89 113.538 90)
+			(at 129.54 124.968 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15731,7 +16997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 111.76 0)
+			(at 129.54 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15742,7 +17008,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 135.89 111.76 0)
+			(at 129.54 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15759,7 +17025,7 @@
 			(uuid "1b169604-3a4d-4d78-ab95-d23628f83a35")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R32")
 					(unit 1)
@@ -15769,7 +17035,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 173.99 0)
+		(at 120.65 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15780,7 +17046,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cbb6e53-bcfc-41a9-8d33-87196e45a946")
 		(property "Reference" "R26"
-			(at 130.81 172.7199 0)
+			(at 123.19 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15791,7 +17057,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 130.81 175.2599 0)
+			(at 123.19 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15802,7 +17068,7 @@
 			)
 		)
 		(property "Footprint" "_my_Resistors:R_Axial_DIN0207_L6.3mm_D2.2mm_P10.16mm_Horizontal"
-			(at 126.492 173.99 90)
+			(at 118.872 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15813,7 +17079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 173.99 0)
+			(at 120.65 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15824,7 +17090,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 173.99 0)
+			(at 120.65 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15841,7 +17107,7 @@
 			(uuid "70e1229e-9df7-43cc-9296-4c5b051536b0")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R26")
 					(unit 1)
@@ -15851,7 +17117,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NPN")
-		(at 168.91 105.41 0)
+		(at 162.56 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15862,7 +17128,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f7268e3-29a6-4cd8-baa0-20b1b32df06c")
 		(property "Reference" "Q2"
-			(at 173.99 104.1399 0)
+			(at 167.64 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15873,7 +17139,7 @@
 			)
 		)
 		(property "Value" "S9014"
-			(at 173.99 106.6799 0)
+			(at 167.64 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15883,8 +17149,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 173.99 102.87 0)
+		(property "Footprint" "_my_Transistors:TO-92_Inline_Wide_S9014"
+			(at 167.64 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15895,7 +17161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 105.41 0)
+			(at 162.56 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15906,7 +17172,7 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 168.91 105.41 0)
+			(at 162.56 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15926,7 +17192,7 @@
 			(uuid "5ced2cc5-40d4-49f5-babb-73ccf93f1672")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "Q2")
 					(unit 1)
@@ -16004,7 +17270,7 @@
 			(uuid "84b22845-54fb-4bbe-99cd-3c8f0c7c635a")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR1")
 					(unit 1)
@@ -16084,7 +17350,7 @@
 			(uuid "05bb0897-c07b-4645-8721-cab3648cd7d1")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "J1")
 					(unit 1)
@@ -16161,7 +17427,7 @@
 			(uuid "4a768510-157e-478f-95d7-3c7cc5bb7b99")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR107")
 					(unit 1)
@@ -16240,7 +17506,7 @@
 			(uuid "02e48afb-c3cf-4e77-87bf-cd47934f67ea")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R10")
 					(unit 1)
@@ -16250,7 +17516,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 114.3 158.75 0)
+		(at 106.68 165.1 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -16262,7 +17528,7 @@
 		(fields_autoplaced yes)
 		(uuid "8837483a-6946-4687-8c81-354278978a69")
 		(property "Reference" "J8B1"
-			(at 114.3 149.86 0)
+			(at 106.68 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16272,7 +17538,7 @@
 			)
 		)
 		(property "Value" "OUT_A"
-			(at 114.3 152.4 0)
+			(at 106.68 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16282,7 +17548,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 114.3 158.75 0)
+			(at 106.68 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16293,7 +17559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 158.75 0)
+			(at 106.68 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16304,7 +17570,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 114.3 158.75 0)
+			(at 106.68 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16324,7 +17590,7 @@
 			(uuid "f2479827-207b-46c5-9832-9f7f31001d1a")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "J8B1")
 					(unit 1)
@@ -16334,7 +17600,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 186.69 87.63 0)
+		(at 180.34 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16345,7 +17611,7 @@
 		(fields_autoplaced yes)
 		(uuid "894c1775-0004-469e-ab80-98bfe958cd3e")
 		(property "Reference" "#PWR16"
-			(at 186.69 91.44 0)
+			(at 180.34 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16356,7 +17622,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 186.69 82.55 0)
+			(at 180.34 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16366,7 +17632,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 87.63 0)
+			(at 180.34 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16377,7 +17643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 87.63 0)
+			(at 180.34 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16388,7 +17654,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 186.69 87.63 0)
+			(at 180.34 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16402,7 +17668,7 @@
 			(uuid "dea149a3-c424-4aa8-b3f0-d72d4d764dd0")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR16")
 					(unit 1)
@@ -16411,19 +17677,20 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 111.76 115.57 0)
-		(mirror y)
+		(lib_id "Device:NetTie_2")
+		(at 24.13 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "93258d91-5371-4765-a967-2f07ad439e1c")
-		(property "Reference" "J9B1"
-			(at 112.268 107.696 0)
+		(fields_autoplaced yes)
+		(uuid "8ee275d0-d4b0-485f-b9a6-5ed760a73908")
+		(property "Reference" "NT7"
+			(at 24.13 171.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16432,8 +17699,9 @@
 				)
 			)
 		)
-		(property "Value" "IN_A"
-			(at 112.014 121.412 0)
+		(property "Value" "NetTie_2"
+			(at 24.13 173.99 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16442,8 +17710,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 111.76 115.57 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 24.13 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16454,7 +17722,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 115.57 0)
+			(at 24.13 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 24.13 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0f475704-0539-46e6-804a-157f2d6c88c2")
+		)
+		(pin "1"
+			(uuid "9a4a09f5-60e9-4836-b3b3-9f037ab9c7db")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "NT7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 105.41 127 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93258d91-5371-4765-a967-2f07ad439e1c")
+		(property "Reference" "J9B1"
+			(at 105.918 119.126 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN_A"
+			(at 105.664 132.842 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 105.41 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16465,7 +17813,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 111.76 115.57 0)
+			(at 105.41 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16482,7 +17830,7 @@
 			(uuid "f10172b5-c022-4992-81aa-58c4c51eb3cd")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "J9B1")
 					(unit 1)
@@ -16559,9 +17907,90 @@
 			(uuid "f3ecc447-32cd-40e9-ba0b-5f5d6b82ee6a")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 180.34 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "95bf7261-c8a1-46f6-b4ed-c3eab3260f64")
+		(property "Reference" "C20"
+			(at 184.658 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 186.944 30.734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 180.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 180.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "db6f697f-8e63-4236-a340-23fa4815e4ee")
+		)
+		(pin "1"
+			(uuid "7a52c204-9ffa-4e61-808a-5e3d7fd29ec1")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -16637,9 +18066,87 @@
 			(uuid "e24c2040-168e-40c5-90ba-d5b89903dd22")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a49f26e-2cca-4bd3-a6dc-7926ee465e24")
+		(property "Reference" "#PWR022"
+			(at 213.36 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c29bb742-f66f-412c-adcc-67af24af4298")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -16716,7 +18223,7 @@
 			(uuid "c4a5679d-6fb7-4208-a84b-10d4046b07a3")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR11")
 					(unit 1)
@@ -16726,7 +18233,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5819")
-		(at 80.01 31.75 180)
+		(at 85.09 31.75 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16737,7 +18244,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bbd16ab-f0ff-45ca-a4cd-c39c2af0cd25")
 		(property "Reference" "D1"
-			(at 80.3275 25.4 0)
+			(at 85.4075 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16747,7 +18254,7 @@
 			)
 		)
 		(property "Value" "1N5819"
-			(at 80.3275 27.94 0)
+			(at 85.4075 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16756,8 +18263,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 80.01 27.305 0)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+			(at 85.09 27.305 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16768,7 +18275,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
-			(at 80.01 31.75 0)
+			(at 85.09 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16779,7 +18286,7 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
-			(at 80.01 31.75 0)
+			(at 85.09 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16796,7 +18303,7 @@
 			(uuid "bd4a0fd8-bab0-467d-9f3c-e0c8b657b9a6")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "D1")
 					(unit 1)
@@ -16811,7 +18318,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -16878,7 +18385,7 @@
 			(uuid "95edfc14-25bf-482a-b215-12c324fc0f7b")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "NT2")
 					(unit 1)
@@ -16888,7 +18395,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 146.05 105.41 0)
+		(at 139.7 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16899,7 +18406,7 @@
 		(fields_autoplaced yes)
 		(uuid "a22b1233-3b7b-4bb6-b94a-cdafb712a1df")
 		(property "Reference" "D4"
-			(at 146.05 99.06 0)
+			(at 139.7 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16909,7 +18416,7 @@
 			)
 		)
 		(property "Value" "4148"
-			(at 146.05 101.6 0)
+			(at 139.7 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16918,8 +18425,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 146.05 105.41 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 139.7 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16930,7 +18437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 105.41 0)
+			(at 139.7 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16941,7 +18448,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 146.05 105.41 0)
+			(at 139.7 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16952,7 +18459,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 146.05 105.41 0)
+			(at 139.7 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16963,7 +18470,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 146.05 105.41 0)
+			(at 139.7 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16980,7 +18487,7 @@
 			(uuid "9517ff55-3626-4aa0-8e7c-0806417dfe1a")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "D4")
 					(unit 1)
@@ -17061,7 +18568,7 @@
 			(uuid "7c1adabf-4ec1-4e6b-a33f-e7a9c37a9cf3")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R28")
 					(unit 1)
@@ -17070,98 +18577,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:AudioJack3_SwitchTR")
-		(at 100.33 120.65 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a50b580c-dbae-45e2-ac9a-77163468572c")
-		(property "Reference" "J9"
-			(at 99.314 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Audio IN"
-			(at 102.108 104.648 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3535NG_Horizontal"
-			(at 100.33 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "R"
-			(uuid "80bd01ba-7ac3-4d98-82c4-9dc7c4787273")
-		)
-		(pin "RN"
-			(uuid "827c4f70-c8ac-4631-803f-ac456fc471a4")
-		)
-		(pin "S"
-			(uuid "94007fc5-9ee1-44d3-8489-8074c31b6600")
-		)
-		(pin "T"
-			(uuid "7ebea4fe-5d7c-485e-8c7c-ffd330221144")
-		)
-		(pin "TN"
-			(uuid "b65dabe8-9a20-44a4-a0f9-ef1b1ecf0e26")
-		)
-		(instances
-			(project "schematics_rp2040_black_vga"
-				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 128.27 160.02 0)
+		(at 120.65 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17171,7 +18588,7 @@
 		(dnp no)
 		(uuid "a61ecc99-0725-4e10-ad52-d9a9fe137294")
 		(property "Reference" "#PWR103"
-			(at 128.27 166.37 0)
+			(at 120.65 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17182,7 +18599,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.397 164.4142 0)
+			(at 120.777 170.7642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17192,7 +18609,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 160.02 0)
+			(at 120.65 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17203,7 +18620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 160.02 0)
+			(at 120.65 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17214,7 +18631,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 160.02 0)
+			(at 120.65 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17228,9 +18645,90 @@
 			(uuid "5ac72f02-2d2d-4b22-9178-05590e6972ff")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 204.47 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac05b18f-d277-4e8d-9f73-0b27e4f5c50f")
+		(property "Reference" "C15"
+			(at 208.788 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 211.328 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 204.47 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 204.47 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f54bc5d9-2478-4e32-8c25-c89722ad3d40")
+		)
+		(pin "1"
+			(uuid "3ce2cb86-cc51-4749-87ae-ac0faaa2a5a1")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -17307,7 +18805,7 @@
 			(uuid "aeec0128-ca7a-4b90-a75b-dc78bf30af3d")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R7")
 					(unit 1)
@@ -17316,8 +18814,8 @@
 		)
 	)
 	(symbol
-		(lib_id "_my_MC_Dev_Boards:RP2040_Type-C_4MB_black_with_ARGB_LED")
-		(at 151.13 50.8 0)
+		(lib_id "power:PWR_FLAG")
+		(at 88.9 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17326,9 +18824,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b415f927-8fa5-4ed1-aa9a-9bce6533e842")
-		(property "Reference" "U1"
-			(at 151.13 19.05 0)
+		(uuid "b2ac8a81-2fd3-4d52-935c-ba0543447e95")
+		(property "Reference" "#FLG03"
+			(at 88.9 29.845 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17337,8 +18836,9 @@
 				)
 			)
 		)
-		(property "Value" "YD-RP2040 TypeC Black Clone"
-			(at 151.13 21.59 0)
+		(property "Value" "PWR_FLAG"
+			(at 88.9 26.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17347,8 +18847,8 @@
 				)
 			)
 		)
-		(property "Footprint" "_my_MC_Dev_Boards:RP2040_Type-C_4MB_black_with_ARGB_LED"
-			(at 151.13 50.8 0)
+		(property "Footprint" ""
+			(at 88.9 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17359,7 +18859,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 50.8 0)
+			(at 88.9 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 88.9 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cab020e8-3bc3-4545-b87f-149e0bf8cbae")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_my_MC_Dev_Boards:RP2040_Type-C_4MB_black_with_ARGB_LED")
+		(at 149.86 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b415f927-8fa5-4ed1-aa9a-9bce6533e842")
+		(property "Reference" "U1"
+			(at 149.86 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "YD-RP2040 TypeC Black Clone"
+			(at 149.86 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_my_MC_Dev_Boards:RP2040_Type-C_4MB_black_with_ARGB_LED"
+			(at 149.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17370,7 +18947,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 50.8 0)
+			(at 149.86 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17501,7 +19078,7 @@
 			(uuid "6a442e3f-9584-4a7d-9e3f-3a56a4549ac8")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "U1")
 					(unit 1)
@@ -17580,7 +19157,7 @@
 			(uuid "fdc11fdd-b38c-4d94-86ba-56ecb9212908")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R5")
 					(unit 1)
@@ -17621,7 +19198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 220.98 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -17673,7 +19250,7 @@
 			(uuid "017f1658-21a1-4167-a19a-87a82cf7a678")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "U2")
 					(unit 1)
@@ -17683,7 +19260,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 139.7 152.4 0)
+		(at 132.08 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17693,7 +19270,7 @@
 		(dnp no)
 		(uuid "baa0af10-bc8a-4704-be10-f57e212f7371")
 		(property "Reference" "C5"
-			(at 142.621 151.2316 0)
+			(at 135.001 157.5816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17703,8 +19280,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
-			(at 142.621 153.543 0)
+		(property "Value" "10nF"
+			(at 135.001 159.893 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17715,7 +19292,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 140.6652 156.21 0)
+			(at 133.0452 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17726,7 +19303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 152.4 0)
+			(at 132.08 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17737,7 +19314,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 139.7 152.4 0)
+			(at 132.08 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17754,9 +19331,87 @@
 			(uuid "f47d58da-50a0-483b-9648-4615aa9c4237")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3aeb2a6-b6aa-469e-8617-37e982613538")
+		(property "Reference" "#PWR018"
+			(at 107.95 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a9b8b55-474b-424c-a037-558b1266cf68")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -17833,9 +19488,88 @@
 			(uuid "0027de9d-ad58-4d49-b567-fdee268774b1")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 196.85 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c608ba24-39ab-48ac-91b3-8168f66071a3")
+		(property "Reference" "C18"
+			(at 198.882 36.068 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uF"
+			(at 201.168 29.464 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+			(at 197.8152 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 196.85 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af52477e-2fc0-41d7-903b-03f236271788")
+		)
+		(pin "2"
+			(uuid "ef7835ba-2092-49b8-a18d-4d49060fae64")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -17863,7 +19597,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 197.104 153.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17914,7 +19648,7 @@
 			(uuid "2e190c85-f814-4981-917c-ab22f77acf66")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "C10")
 					(unit 1)
@@ -17924,7 +19658,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 152.4 0)
+		(at 120.65 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17935,7 +19669,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8a9758c-6053-41bb-8662-2a2e656d2299")
 		(property "Reference" "R22"
-			(at 130.81 151.1299 0)
+			(at 123.19 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17946,7 +19680,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 130.81 153.6699 0)
+			(at 123.19 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17957,7 +19691,7 @@
 			)
 		)
 		(property "Footprint" "_my_Resistors:R_Axial_DIN0207_L6.3mm_D2.2mm_P10.16mm_Horizontal"
-			(at 126.492 152.4 90)
+			(at 118.872 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17968,7 +19702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 152.4 0)
+			(at 120.65 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17979,7 +19713,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 152.4 0)
+			(at 120.65 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17996,9 +19730,88 @@
 			(uuid "3c512755-cfac-464e-890b-aaf1a5159f95")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 76.2 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8b58dae-5585-4982-bf2f-249aaa28a576")
+		(property "Reference" "C19"
+			(at 79.248 38.862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470uF"
+			(at 82.296 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+			(at 77.1652 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 76.2 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2447d5a0-17fe-441b-88fe-ff05178e8158")
+		)
+		(pin "2"
+			(uuid "2a7b62cd-722d-44ce-a24a-233fa8b5e1e4")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -18026,7 +19839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 260.858 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18077,9 +19890,88 @@
 			(uuid "8593178a-26af-433e-916f-68448dc68f30")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 96.52 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc71cbd2-dfed-4b93-b12b-5e2ac39f1f1e")
+		(property "Reference" "J11"
+			(at 96.52 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 98.806 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b401c99b-4996-400c-9242-e3cc597187df")
+		)
+		(pin "1"
+			(uuid "50c09252-985a-4b92-a6a3-87d706ca56f5")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -18154,7 +20046,7 @@
 			(uuid "671115a6-eba1-4d14-a9e4-4a7bd8a679c3")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR7")
 					(unit 1)
@@ -18196,7 +20088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "_my_Connectors:DB9_PinHeader_1x05_P2.54mm_Pins_2,3,4,6,8"
 			(at 266.7 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -18257,7 +20149,7 @@
 			(uuid "1f4dad0d-c6f7-4863-aa3e-7b752fbb0ab9")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "J7")
 					(unit 1)
@@ -18266,8 +20158,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 121.92 118.11 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 99.06 72.39 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18276,31 +20168,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "daaf4ee8-d527-421e-a189-a02430b65f26")
-		(property "Reference" "R33"
-			(at 124.46 116.8399 0)
+		(uuid "da5b8204-6394-4794-a8d6-77f25206808d")
+		(property "Reference" "J10"
+			(at 99.06 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100R"
-			(at 124.46 119.3799 0)
+		(property "Value" "Conn_01x02"
+			(at 99.06 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "_my_Resistors:R_Axial_DIN0207_L6.3mm_D2.2mm_P10.16mm_Horizontal"
-			(at 120.142 118.11 90)
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+			(at 99.06 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18311,7 +20201,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 118.11 0)
+			(at 99.06 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 99.06 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "69bdc012-15a9-41d7-b992-6ecdfe3a831b")
+		)
+		(pin "1"
+			(uuid "dcee45ab-5b1b-4898-8895-4db91ce4f5f7")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daaf4ee8-d527-421e-a189-a02430b65f26")
+		(property "Reference" "R33"
+			(at 118.11 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R"
+			(at 118.11 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_my_Resistors:R_Axial_DIN0207_L6.3mm_D2.2mm_P10.16mm_Horizontal"
+			(at 113.792 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18322,7 +20294,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 121.92 118.11 0)
+			(at 115.57 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18339,7 +20311,7 @@
 			(uuid "7ec78db2-d536-4877-ae20-666b3b3810c6")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R33")
 					(unit 1)
@@ -18354,7 +20326,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -18421,7 +20393,7 @@
 			(uuid "2ecf44c4-21b6-4057-94d2-11ccbc53406a")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "NT3")
 					(unit 1)
@@ -18436,7 +20408,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -18503,7 +20475,7 @@
 			(uuid "1770f3c8-f6dd-4da1-b195-f513f67d6751")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "NT4")
 					(unit 1)
@@ -18582,7 +20554,7 @@
 			(uuid "11727947-1b9c-4d02-90cf-0855ac0d1352")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R6")
 					(unit 1)
@@ -18597,7 +20569,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9ba871e-48e1-483a-bd11-cb6f4d976759")
@@ -18663,9 +20635,86 @@
 			(uuid "adc6a5ad-e3a8-4998-a7ac-0b5d2c01fba5")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 204.47 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eea02683-1c86-4057-9236-78c80150e9ac")
+		(property "Reference" "#PWR021"
+			(at 204.47 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.724 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf4ce39c-43a9-494c-aaa6-12b7bf82d26a")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -18702,7 +20751,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 269.24 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -18742,9 +20791,86 @@
 			(uuid "5b048397-f720-4923-bcb0-7104a36cd219")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef69f9ad-cea4-470c-be72-9fea356fa13f")
+		(property "Reference" "#PWR023"
+			(at 187.96 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 188.214 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58e73ff7-f04e-4135-b8a5-698735f14dfb")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -18821,7 +20947,7 @@
 			(uuid "3efab01d-f7b5-4300-910a-23aec4f63dc6")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "R2")
 					(unit 1)
@@ -18831,7 +20957,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 39.37 0)
+		(at 76.2 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18842,7 +20968,7 @@
 		(fields_autoplaced yes)
 		(uuid "f588ce20-5c7e-412b-a090-42896949b748")
 		(property "Reference" "#PWR4"
-			(at 73.66 45.72 0)
+			(at 76.2 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18853,7 +20979,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 44.45 0)
+			(at 76.2 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18863,7 +20989,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 39.37 0)
+			(at 76.2 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18874,7 +21000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 39.37 0)
+			(at 76.2 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18885,7 +21011,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 39.37 0)
+			(at 76.2 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18899,9 +21025,87 @@
 			(uuid "14e4df7b-1bf9-4306-b338-0f03eb5ebbb5")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "#PWR4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f768d913-2dcd-4a63-b74d-53ef6e58ee81")
+		(property "Reference" "#PWR024"
+			(at 196.85 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "873bb9bf-2f90-4ee8-8eb7-6fac18b85564")
+		)
+		(instances
+			(project "rp2040_black_vga"
+				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -18914,7 +21118,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -18981,7 +21185,7 @@
 			(uuid "5cffbec8-7f65-45c6-87d1-ff45788e5961")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "NT6")
 					(unit 1)
@@ -18991,7 +21195,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 134.62 147.32 270)
+		(at 127 153.67 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19002,7 +21206,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc87ece2-0960-4e9d-b6e8-c5bf9dcf0932")
 		(property "Reference" "C4"
-			(at 135.1661 140.97 90)
+			(at 127.5461 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19011,8 +21215,8 @@
 				)
 			)
 		)
-		(property "Value" "10u"
-			(at 135.1661 143.51 90)
+		(property "Value" "10uF"
+			(at 127.5461 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19022,7 +21226,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 134.62 147.32 0)
+			(at 127 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19033,7 +21237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 147.32 0)
+			(at 127 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19044,7 +21248,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 134.62 147.32 0)
+			(at 127 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19061,7 +21265,7 @@
 			(uuid "a32fbae2-06b6-497c-a7f9-dc3773feb849")
 		)
 		(instances
-			(project "schematics_rp2040_black_vga"
+			(project "rp2040_black_vga"
 				(path "/596ca221-af1d-4d3f-8faf-36ce9897849d"
 					(reference "C4")
 					(unit 1)
