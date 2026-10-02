@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "schematics_rp2040_black_vga.kicad_prl",
+    "filename": "rp2040_black_vga.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -92,16 +92,16 @@
       9
     ],
     "col_widths": [
-      222,
-      207,
-      136,
-      92,
-      136,
-      136,
-      136,
-      98,
-      136,
-      136
+      62,
+      59,
+      82,
+      67,
+      71,
+      84,
+      72,
+      71,
+      39,
+      555
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
