@@ -29,11 +29,11 @@ fp-info-cache
 *.drl
 *.pos
 gerbers/
-plot/
+# plot/
 
 # Reports (ERC, DRC)
 *.rpt
-*.net
+# *.net
 
 # Fabrication output archives
 *.zip
