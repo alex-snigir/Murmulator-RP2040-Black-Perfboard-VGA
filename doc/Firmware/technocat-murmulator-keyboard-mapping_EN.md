@@ -75,7 +75,7 @@ Legend: ✅ confirmed working, ❌ confirmed not working, — not tested in this
 
 2. **Right Shift (`0x59`, non-E0) and Right Alt (`E0 0x11`) produce Backspace/Delete** instead of the expected behavior — deterministically, not randomly. Requires checking the Tecnocat firmware sources: possibly this is intentional mapping of specific scan codes. At the same time, **Right Ctrl (`E0 0x14`) works correctly and reliably** duplicates SYMBOL SHIFT. Since the "problem" keys include both an E0 code (Right Alt) and a non-E0 code (Right Shift), the pattern **is not related to the presence of the E0 prefix as such** — this strengthens the hypothesis of **intentional/specific mapping** of particular scan codes in the firmware, rather than a hardware or logic problem tied to the class of E0 sequences.
 
-3. **The "garbage" symbols problem in Lode Runner** (CPS, CS, SYM prefixes, numpad digits) remains localized to **multi-byte E0 scan codes** (arrows, Insert, Delete, etc.) — it does not reproduce on the confirmed single-byte combinations. The signal integrity hypothesis for E0 sequences still stands.
+3. **The "garbage" symbols problem in Lode Runner** (CPS, CS, SYM prefixes, numpad digits) — **the cause has been found, and it is not signal integrity.** The problem was originally attributed to multi-byte E0 scan codes (arrows, Insert, Delete, etc.), but the oscillograms showed clean transmission of E0 sequences, and the Lode Runner test (see "Open Questions") confirmed that the CPS prefix is added by the firmware's `[KBD>Cursor]` mode, which silently presses CAPS SHIFT on every arrow (see "Finding from the Firmware Sources").
 
 4. **128 BASIC vs 48 BASIC**: the difference in handling SYMBOL SHIFT tokens is a quirk/limitation of the 128 editor emulation in Tecnocat, not related to the PS/2 signal. A candidate for separate investigation (not a priority for the current PS/2 diagnostics).
 
@@ -139,7 +139,7 @@ Verified by the user: in F12 → SETTINGS the "Keyboard maps to..." mode was `[K
 
 - ✅ **Resolved:** the cause of Backspace/Delete on Right Alt/Right Shift is the "Cursor Joystick" mode (CAPS+0 = Fire), see the "Finding from the Firmware Sources" section above.
 - ✅ **Confirmed in practice:** switching to `[KBD>Kempst]` eliminates the side effect for Right Alt/Right Shift; Delete stops working (as expected — no direct mapping in the base table); regular Backspace and Shift+0 continue to work (unconditional mapping).
-- **Still to check:** whether the artifacts in Lode Runner disappear with `[KBD>Kempst]` instead of `[KBD>Cursor]` — this should confirm or refute the hypothesis of a hidden CAPS SHIFT press on every arrow in Cursor mode.
+- ✅ **Verified in practice (Lode Runner, Redefine Keys menu, reproduced twice):** in `[KBD>Cursor]`, pressing Left and Right produces the "garbage" CPS symbol — the hidden CAPS SHIFT press that Cursor mode adds to the arrow (CAPS+5 / CAPS+8). In `[KBD>Kempst]` the Left/Right/Up/Down arrows do not respond at all in Redefine Keys — as expected: in this mode the arrows go to the Kempston joystick port, not to the keyboard matrix that Redefine Keys polls. The hidden CAPS SHIFT hypothesis is confirmed. To control the game with the arrows in `[KBD>Kempst]` mode, select Kempston control in the game (if available); otherwise, assign letter keys in Redefine Keys.
 - Clarify in the documentation/sources the specifics of the 128 BASIC editor and how tokens are entered with the blue cursor.
 - Test SYM SHIFT + SPACE (BREAK).
 

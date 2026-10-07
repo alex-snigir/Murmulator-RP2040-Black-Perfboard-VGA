@@ -111,7 +111,7 @@ The keyboard is powered **separately from the main 3.3V peripherals**, directly 
 |---|---|
 | Source | Vout (after BAT54C), not 3V3(OUT) |
 | Nominal drop | ~0.3–0.45V across BAT54C relative to the 5V input (in the default J13 position; when powered from J12 the drop across D1 is added, see section 10) |
-| Resulting voltage on Mini-DIN-6 pin 4 | ~4.6–4.8V when powered from the module's USB Type-C or from J1 (within PS/2 specification tolerance); variants for J12 and J13 position 2–3 — in the table in section 10 |
+| Resulting voltage on Mini-DIN-6 pin 4 | 4.62–4.67V when powered from the module's USB Type-C or from J1 (measured, within PS/2 specification tolerance); 4.04–4.29V when powered from J12 via D1 — see the measurements in section 10 |
 | Keyboard current draw | ~100 mA (account for it when budgeting current through BAT54C, see section 10) |
 
 ### 4.2. Signal Lines (level-shifting 5V → 3.3V)
@@ -264,6 +264,8 @@ The ESP32 module (**DevKit with an onboard AMS1117 regulator**, 5V→3.3V on the
 
 **An important feature by design:** the beeper is deliberately mixed in much quieter than the game sound — the coupling capacitors in the BEEP path are three orders of magnitude smaller (10 nF vs. 10 µF in the main channel), and the summing resistors (2 kΩ) are higher than the series resistors of the main channel (1 kΩ). This is a deliberate circuit decision (a quiet indicator signal on top of the main sound), not an error/imbalance.
 
+**Tecnocat firmware setting:** by default, sound output in SETTINGS is set to **NONE** — there will be no sound on J8 until it is manually switched to **Beeper+AY**.
+
 ---
 
 ## 7. Audio In (J9)
@@ -367,7 +369,7 @@ J4, pin 4 (keyboard)──┘
 J5, pin 38 ── node +5V_IN ── U1, Vin (pin 39)   [from the +5V_RAW rail via J13 in position 1–2 — see section 10]
 ```
 
-**Important limitation of the `+5V_VOUT` node:** in USB-only mode and in the default J13 position (1–2) the only path to this node is through the onboard **BAT54C** signal diode, limit ~150–300 mA. The keyboard already sits on this node (~100 mA at idle, spikes possible). The total current of the keyboard + the board on J5 (pins 39/40) in USB-only mode must not exceed the BAT54C rating — with a significant current draw by the board on J5 (comparable, for example, to BlueRetro, ~150+ mA) the budget may not be enough. The actual consumption of the board on J5 needs to be estimated/measured before relying on this node.
+**Important limitation of the `+5V_VOUT` node:** in USB-only mode and in the default J13 position (1–2) the only path to this node is through the onboard **BAT54C** signal diode, limit ~150–300 mA. The keyboard already sits on this node (~100 mA at idle, spikes possible). The total current of the keyboard + the board on J5 (pins 39/40) in USB-only mode must not exceed the BAT54C rating — with a significant current draw by the board on J5 (comparable, for example, to BlueRetro, ~150+ mA) the budget may not be enough. The actual consumption of the board on J5 needs to be estimated/measured before relying on this node. There is no external board on J5 yet — the measurement is postponed until one appears.
 
 **Status:** decision made — pins 39/40 on `+5V_VOUT`, pin 38 stays on `+5V_IN` (by analogy with pin 38/VSYS in the original schematic, where the "raw" input and the combined output were kept separate). Confirmed by the netlist.
 
@@ -439,16 +441,35 @@ External PSU GND ──> J1, pin 2 / common board GND (J12, J2, J16 — GND also
 | **1–2 (default)** | Vin (U1, pin 39) + J5 pin 38 | Through the module's onboard BAT54C (Vin → BAT54C → Vout) | Current to `+5V_VOUT` is limited by BAT54C (~150–300 mA per leg). The RAW source and the module's USB Type-C are isolated by the BAT54C diodes — no reverse current between them |
 | **2–3** | Vout (U1, pin 40) directly | Bypassing BAT54C | Current to `+5V_VOUT` is limited only by the source (and by D1 1A when powered from J12). Vin and J5 pin 38 are then unpowered |
 
-**⚠️ Peculiarity of position 2–3 (needs verification):** in this position `+5V_RAW` and `+5V_VOUT` are a single node with no diode between them. If the board is powered only from the module's USB Type-C (without J1/J12), Vout (~4.7V after BAT54C) reaches the `+5V_RAW` rail through J13, i.e. J2/J16 (BlueRetro) and J1 — the BlueRetro load will go through BAT54C, and the voltage will appear on the DC jack connector. Position 2–3 makes sense only when powered from J1/J12.
+**⚠️ Peculiarity of position 2–3 (confirmed by measurement F, see below):** in this position `+5V_RAW` and `+5V_VOUT` are a single node with no diode between them. If the board is powered only from the module's USB Type-C (without J1/J12), Vout (~4.7V after BAT54C) reaches the `+5V_RAW` rail through J13, i.e. J2/J16 (BlueRetro) and J1 — the BlueRetro load will go through BAT54C, and the voltage will appear on the DC jack connector. Position 2–3 makes sense only when powered from J1/J12.
 
-**Voltage on `+5V_VOUT` (keyboard J4) — estimate, needs to be checked with a multimeter:**
+**Voltages with J13 = 1–2 — measured with a multimeter (2026-10-03):**
 
-| Source | J13 = 1–2 (via BAT54C) | J13 = 2–3 (direct) |
-|---|---|---|
-| J1 (PSU 5V) | ~4.6–4.7V (one drop across BAT54C) | ~5.0V |
-| J12 via D1 | ~4.2–4.4V (D1 + BAT54C) | ~4.6–4.7V (D1 only) |
-| J12 with J14 closed | ~4.6–4.7V (BAT54C only) | ~5.0V |
-| Module USB Type-C only | ~4.7V (via the module's BAT54C) | ~4.7V (via the module's BAT54C) |
+| Variant | Source | BlueRetro on J16 | J12 VBUS | `+5V_RAW` = `+5V_IN` | `+5V_VOUT` (keyboard J4) |
+|---|---|---|---|---|---|
+| A | PSU 5V 1A on J1 | no | — | 5.10V | 4.67V |
+| B | PSU 5V 1A on J1 | yes | — | 5.08V | 4.65V |
+| C | Baseus 30W charger on J12 (via D1) | no | 5.04V | 4.72V | 4.29V |
+| D | Baseus 30W charger on J12 (via D1) | yes | 4.83V | 4.47V | 4.04V (keyboard works) |
+| E | Module USB Type-C (from a laptop) | no | — | 0V at first, then slowly rising | 4.62V |
+
+**Conclusions from the measurements:**
+- Drop across BAT54C (Vin → Vout) — **~0.43V** in all variants A–D.
+- Drop across D1 (1N5819) — **~0.32V** without BlueRetro (C) and **~0.36V** with BlueRetro (D).
+- When powered from J12 with the BlueRetro load, VBUS sags by ~0.21V (5.04 → 4.83V) — a sag on the charger/cable/Micro USB module side; the PSU on J1 sags by only ~0.02V under the same load.
+- Variant D is the worst case: `+5V_VOUT` = 4.04V, and the keyboard still works; BlueRetro power is fine — 3.296V measured on the 3V3 pin of the ESP32 D1 mini. The voltage when powered from J12 can be raised with jumper J14 (bypassing D1, ~+0.3V) — in that case a PSU must not be connected to J1 at the same time.
+- Variant E: when powered only from the module's USB Type-C, the `+5V_RAW` rail is not powered, but the voltage on it slowly rises — probably the reverse leakage current of the Schottky diodes (BAT54C) charging the unloaded capacitors C19/C20. With a load connected (BlueRetro) this voltage does not hold.
+
+**J13 = 2–3 position — measured (2026-10-04), variant F:** powered from the module's USB Type-C (from a laptop), no BlueRetro: `+5V_VOUT` = `+5V_RAW` = 4.61V — the Vout voltage does reach the `+5V_RAW` rail (J1, J2, J16). `+5V_IN` (Vin) — ~3.3V right after power-on and slowly rising: in this position Vin is not connected to anything, and it is charged by the BAT54C leakage current through the unloaded C20 (100nF — hence faster than C19 470µF in variant E). J12 VBUS (J14 open) — a steady 4.58V: the reverse leakage current of D1 (noticeably higher for the 1N5819 than for the BAT54C) holds the unloaded J12 input almost at the `+5V_RAW` level. Both voltages are "parasitic", with no load capability; `+5V_IN`/J5:38 and J12 must not be used in this mode.
+
+**J13 = 2–3 position — other variants (estimate, not measured):**
+
+| Source | `+5V_VOUT` (directly from `+5V_RAW`) |
+|---|---|
+| J1 (PSU 5V) | ~5.0–5.1V |
+| J12 via D1 | ~4.5–4.7V |
+| J12 with J14 closed | ~4.8–5.0V |
+| Module USB Type-C only | 4.61V (measured, variant F) |
 
 **Purpose of J2 / J16:** taps of the `+5V_RAW` rail (J16 is a duplicate of J2 on the other side of the PCB) — used to power external peripherals, in particular the **BlueRetro** adapter (see section 5.1), which already has its own Schottky diode D1 = 1N5819 at the J3 input on its own board. The load on J2/J16 does not pass through the module's BAT54C.
 

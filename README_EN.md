@@ -62,6 +62,11 @@ A Murmulator build (an adapter board from a Raspberry Pi Pico / YD-RP2040 clone 
 
 See [`doc/murmulator-vga-project-summary_EN.md`](doc/murmulator-vga-project-summary_EN.md) for full details on every point above.
 
+## Box
+
+![Murmulator PCB](doc/murmulator-vga-box1.jpg)
+![Murmulator PCB](doc/murmulator-vga-box2.jpg)
+
 ## Links
 
 - Official documentation and other Murmulator build variants: https://murmulator.ru/howto

@@ -62,6 +62,12 @@
 
 Подробности по каждому пункту — в [`doc/murmulator-vga-project-summary.md`](doc/murmulator-vga-project-summary.md).
 
+## Корпус
+
+![Murmulator PCB](doc/murmulator-vga-box1.jpg)
+![Murmulator PCB](doc/murmulator-vga-box2.jpg)
+
+
 ## Ссылки
 
 - Официальная документация и другие варианты сборки Мурмулятора: https://murmulator.ru/howto
