@@ -502,14 +502,14 @@ Verified against the netlist: all second pins of the new capacitors correctly re
 
 ## 11. Assembly Order Checklist
 
-1. [ ] Rework the SD module (desolder AMS1117 + 74VHCT125A, jumpers).
-2. [ ] Dry layout of components on the perfboard according to the block diagram from the base version documentation (see item 1).
-3. [ ] Route the GND and 3.3V rails along the board edges with separate traces/wire.
-4. [ ] Solder in the Pico — preferably on pin header sockets, not directly (for easy replacement/reflashing).
-5. [ ] Connect the SD module SPI, VGA R2R resistors, PS/2 keyboard, joystick to the corresponding Pico GPIOs.
+1. [x] Rework the SD module (desolder AMS1117 + 74VHCT125A, jumpers).
+2. [x] Dry layout of components on the perfboard according to the block diagram from the base version documentation (see item 1).
+3. [x] Route the GND and 3.3V rails along the board edges with separate traces/wire.
+4. [x] Solder in the Pico — preferably on pin header sockets, not directly (for easy replacement/reflashing).
+5. [x] Connect the SD module SPI, VGA R2R resistors, PS/2 keyboard, joystick to the corresponding Pico GPIOs.
 6. [x] External power circuit — per the netlist of 2026-08-29: `+5V_RAW` rail from J1 and from J12 (via D1, bypass — J14), selector J13 (Vin — default / Vout — bypassing BAT54C), taps J2/J16, see section 10. During assembly, check the voltage on `+5V_VOUT` with a multimeter in the power variants used.
 7. [x] J5: pins 39/40 moved to `+5V_VOUT`, pin 38 intentionally left on `+5V_IN` — see section 8.1.
-8. [ ] Check the placement of the connectors (VGA, SD, audio, joystick) against your enclosure before final assembly.
+8. [x] Check the placement of the connectors (VGA, SD, audio, joystick) against your enclosure before final assembly.
 9. [x] Audio input (section 7): LOAD_IN_D is connected to GP22 with jumper J5:17–18 (NT1 on the schematic); the pull-up of the Q1/Q2 collector node to `+3V3` is confirmed by the netlist.
 10. [x] Decoupling capacitors on the `+3V3`, `+5V_RAW`, `+5V_IN`, `+5V_VOUT` rails — added and verified against the netlist, see section 10.1.
 11. [x] J11 pin 2 net in KiCad — confirmed by the netlist: J11 is correctly merged with `+5V_VOUT`, electrically powered.
