@@ -67,6 +67,19 @@ See [`doc/murmulator-vga-project-summary_EN.md`](doc/murmulator-vga-project-summ
 ![Murmulator PCB](doc/murmulator-vga-box1.jpg)
 ![Murmulator PCB](doc/murmulator-vga-box2.jpg)
 
+### 3D models for printing
+
+The files are in the [`3d models/`](<3d models/>) folder:
+
+| Part | Files |
+|---|---|
+| Enclosure (bottom + cover) | [`Box_Bottom_v2.STL`](<3d models/Box_Bottom_v2.STL>) + [`Box_Cover_v2.STL`](<3d models/Box_Cover_v2.STL>) |
+| Flat bottom only, no cover | [`Box_Bottom.STL`](<3d models/Box_Bottom.STL>) |
+| Mount for two DB9 connectors (joysticks J6/J7) | [`DB9_x2_mount.STL`](<3d models/DB9_x2_mount.STL>) |
+| SD module support | [`SD_module_support.STL`](<3d models/SD_module_support.STL>) |
+
+SolidWorks sources (`.SLDPRT`) and slicer projects (`.3mf`) with the same names are in the same folder.
+
 ## Links
 
 - Official documentation and other Murmulator build variants: https://murmulator.ru/howto

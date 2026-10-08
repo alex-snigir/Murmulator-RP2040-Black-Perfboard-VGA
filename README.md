@@ -67,6 +67,19 @@
 ![Murmulator PCB](doc/murmulator-vga-box1.jpg)
 ![Murmulator PCB](doc/murmulator-vga-box2.jpg)
 
+### 3D-модели для печати
+
+Файлы лежат в папке [`3d models/`](<3d models/>):
+
+| Деталь | Файлы |
+|---|---|
+| Корпус (дно + крышка) | [`Box_Bottom_v2.STL`](<3d models/Box_Bottom_v2.STL>) + [`Box_Cover_v2.STL`](<3d models/Box_Cover_v2.STL>) |
+| Только плоское дно, без крышки | [`Box_Bottom.STL`](<3d models/Box_Bottom.STL>) |
+| Крепление для двух разъёмов DB9 (джойстики J6/J7) | [`DB9_x2_mount.STL`](<3d models/DB9_x2_mount.STL>) |
+| Опора для SD-модуля | [`SD_module_support.STL`](<3d models/SD_module_support.STL>) |
+
+Рядом лежат исходники SolidWorks (`.SLDPRT`) и проекты слайсера (`.3mf`) с теми же именами.
+
 
 ## Ссылки
 
