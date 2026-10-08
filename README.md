@@ -64,8 +64,8 @@
 
 ## Корпус
 
-![Murmulator PCB](doc/murmulator-vga-box1.jpg)
-![Murmulator PCB](doc/murmulator-vga-box2.jpg)
+![Murmulator BOX1](doc/murmulator-vga-box1.jpg)
+![Murmulator BOX2](doc/murmulator-vga-box2.jpg)
 
 ### 3D-модели для печати
 

@@ -64,8 +64,8 @@ See [`doc/murmulator-vga-project-summary_EN.md`](doc/murmulator-vga-project-summ
 
 ## Box
 
-![Murmulator PCB](doc/murmulator-vga-box1.jpg)
-![Murmulator PCB](doc/murmulator-vga-box2.jpg)
+![Murmulator BOX1](doc/murmulator-vga-box1.jpg)
+![Murmulator BOX2](doc/murmulator-vga-box2.jpg)
 
 ### 3D models for printing
 
