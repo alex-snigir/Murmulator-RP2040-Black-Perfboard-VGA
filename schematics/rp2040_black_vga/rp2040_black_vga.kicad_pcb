@@ -153,12 +153,6 @@
 		(path "/17f19b67-b640-4e88-a9bd-d4b97877d269")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -557,12 +551,6 @@
 		(path "/8ee275d0-d4b0-485f-b9a6-5ed760a73908")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -800,12 +788,6 @@
 		(path "/1cc3dcb3-5238-48be-9eb8-0b77c5443022")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -980,12 +962,6 @@
 		(path "/baa0af10-bc8a-4704-be10-f57e212f7371")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1182,12 +1158,6 @@
 		(path "/12b844c9-6cfc-4d78-9272-faf820d70cbe")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2556,12 +2526,6 @@
 		(path "/737939b9-2456-4a75-9621-ac8b59495252")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2776,12 +2740,6 @@
 		(path "/f0cb0456-7032-4531-9b9e-24c5a4b75fa7")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3333,15 +3291,6 @@
 		(path "/54049e76-2213-4332-91d4-f859e3c5ba66")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "5" "7" "9" "11" "13" "15" "17" "19" "21" "23" "25" "27"
-					"29" "31" "33" "35" "37" "39" "2" "4" "6" "8" "10" "12" "14" "16" "18"
-					"20" "22" "24" "26" "28" "30" "32" "34" "36" "38" "40"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4006,15 +3955,6 @@
 		(path "/b415f927-8fa5-4ed1-aa9a-9bce6533e842")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
-					"16" "17" "18" "19" "20" "40" "39" "38" "37" "36" "35" "34" "33" "32"
-					"31" "30" "29" "28" "27" "26" "25" "24" "23" "22" "21"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5593,12 +5533,6 @@
 		(path "/5b938697-c415-47d9-b9f7-338dc95291b4")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "5" "9" "4" "8" "3" "7" "2" "6" "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5869,12 +5803,6 @@
 		(path "/c608ba24-39ab-48ac-91b3-8168f66071a3")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7403,12 +7331,6 @@
 		(path "/5349114c-a3b3-4d16-a255-f22c8fc5f649")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7574,12 +7496,6 @@
 		(path "/c3fcc030-b79c-4eb4-b061-b75252f7a544")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7765,12 +7681,6 @@
 		(path "/9e13e66e-4cec-4d46-bce0-4bedb6293160")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "5" "6" "2" "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8182,12 +8092,6 @@
 		(path "/6e23c4a5-76b6-481b-9646-b218d757850c")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8375,12 +8279,6 @@
 		(path "/1007e25b-cbb6-4561-907c-66b03456e7da")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8595,12 +8493,6 @@
 		(path "/da5b8204-6394-4794-a8d6-77f25206808d")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8970,12 +8862,6 @@
 		(path "/71ed97a7-cc5c-4dfc-862a-08bba181bc01")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9161,12 +9047,6 @@
 		(path "/c1cb4d71-ba89-447f-9ce7-bf44674ad512")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9567,12 +9447,6 @@
 		(path "/eebf82cc-d2bd-4eaf-b3f2-cbd682088b71")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9864,12 +9738,6 @@
 		(path "/26bf4643-c961-4926-9d2c-68ab08b431d6")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10057,12 +9925,6 @@
 		(path "/6c057701-6cdb-4305-944b-6f772d86c5d7")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10269,12 +10131,6 @@
 		(path "/c8a9758c-6053-41bb-8662-2a2e656d2299")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10451,12 +10307,6 @@
 		(path "/208fcde3-bfb2-4352-8415-26fc7c5b8f5e")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10644,12 +10494,6 @@
 		(path "/004cd576-48ff-43c8-8a18-850122c1f31d")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10826,12 +10670,6 @@
 		(path "/7c37c696-f048-4607-9e55-8b6eb11c02a7")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10983,7 +10821,7 @@
 	(footprint "_my_Transistors:TO-92_Inline_Wide_S9014"
 		(layer "F.Cu")
 		(uuid "71cbd543-3c8c-43c4-ae2d-e9f81e2c46cd")
-		(at 162.56 101.52 -90)
+		(at 162.56 106.68 90)
 		(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q1"
@@ -11011,7 +10849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11024,7 +10862,7 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11039,12 +10877,6 @@
 		(path "/4138a861-fa5c-462c-9038-0a7ccdd343b9")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "B" "C" "E")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11058,26 +10890,15 @@
 			(uuid "276e66a6-0bf5-4c5d-bda8-8d0c34afc02b")
 		)
 		(fp_arc
-			(start 0.74 1.85)
-			(mid 0.446097 1.509328)
-			(end 0.215816 1.122795)
+			(start 2.54 -2.6)
+			(mid 3.936979 -2.192818)
+			(end 4.8964 -1.098807)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "02f46922-dcee-4cf2-b68b-f6a16396ef08")
-		)
-		(fp_arc
-			(start 4.864184 1.122795)
-			(mid 4.633903 1.509328)
-			(end 4.34 1.85)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1ef80a4c-6782-46a3-960b-0962efb621c5")
+			(uuid "69078d98-fcb6-44e4-a3da-5eebef84a529")
 		)
 		(fp_arc
 			(start 0.1836 -1.098807)
@@ -11091,45 +10912,26 @@
 			(uuid "4dd6f0f1-e54c-466b-89aa-87dfac34b4b5")
 		)
 		(fp_arc
-			(start 2.54 -2.6)
-			(mid 3.936979 -2.192818)
-			(end 4.8964 -1.098807)
+			(start 4.864184 1.122795)
+			(mid 4.633903 1.509328)
+			(end 4.34 1.85)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "69078d98-fcb6-44e4-a3da-5eebef84a529")
+			(uuid "1ef80a4c-6782-46a3-960b-0962efb621c5")
 		)
-		(fp_line
-			(start 6.09 2.01)
-			(end -1.01 2.01)
+		(fp_arc
+			(start 0.74 1.85)
+			(mid 0.446097 1.509328)
+			(end 0.215816 1.122795)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "9c7c0ae4-b36d-4214-b16a-8cab41fa4130")
-		)
-		(fp_line
-			(start 6.09 2.01)
-			(end 6.09 -2.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "21af5da9-b21c-4e1b-ae93-ed7ab02f34a2")
-		)
-		(fp_line
-			(start -1.01 -2.73)
-			(end -1.01 2.01)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a3c1b6b2-48a5-4b65-9a54-f64d10e79f60")
+			(layer "F.SilkS")
+			(uuid "02f46922-dcee-4cf2-b68b-f6a16396ef08")
 		)
 		(fp_line
 			(start -1.01 -2.73)
@@ -11142,6 +10944,36 @@
 			(uuid "408d795d-06e6-4e2e-893b-ccce0e430135")
 		)
 		(fp_line
+			(start -1.01 -2.73)
+			(end -1.01 2.01)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a3c1b6b2-48a5-4b65-9a54-f64d10e79f60")
+		)
+		(fp_line
+			(start 6.09 2.01)
+			(end 6.09 -2.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "21af5da9-b21c-4e1b-ae93-ed7ab02f34a2")
+		)
+		(fp_line
+			(start 6.09 2.01)
+			(end -1.01 2.01)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9c7c0ae4-b36d-4214-b16a-8cab41fa4130")
+		)
+		(fp_line
 			(start 0.8 1.75)
 			(end 4.3 1.75)
 			(stroke
@@ -11150,17 +10982,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "4f3ec183-f06a-4d96-a09b-b1fab5bc039a")
-		)
-		(fp_arc
-			(start 0.786375 1.753625)
-			(mid 0.248779 -0.949055)
-			(end 2.54 -2.48)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "28e8ae27-3051-4b92-aa67-7d76b99ff89c")
 		)
 		(fp_arc
 			(start 2.54 -2.48)
@@ -11172,6 +10993,17 @@
 			)
 			(layer "F.Fab")
 			(uuid "bb7659fd-c52e-48af-8156-37ecd775fefc")
+		)
+		(fp_arc
+			(start 0.786375 1.753625)
+			(mid 0.248779 -0.949055)
+			(end 2.54 -2.48)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "28e8ae27-3051-4b92-aa67-7d76b99ff89c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 2.54 -1.524 90)
@@ -11185,7 +11017,7 @@
 			)
 		)
 		(pad "B" thru_hole circle
-			(at 2.54 0 270)
+			(at 2.54 0 90)
 			(size 1.5 1.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -11195,8 +11027,8 @@
 			(pintype "input")
 			(uuid "0c1c8218-9ec6-43cb-8f5e-d0ae824409c1")
 		)
-		(pad "C" thru_hole circle
-			(at 0 0 270)
+		(pad "C" thru_hole rect
+			(at 5.08 0 90)
 			(size 1.5 1.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -11206,8 +11038,8 @@
 			(pintype "passive")
 			(uuid "653ec90b-aff0-4903-8e7a-fd51e0aae867")
 		)
-		(pad "E" thru_hole rect
-			(at 5.08 0 270)
+		(pad "E" thru_hole circle
+			(at 0 0 90)
 			(size 1.5 1.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -11287,12 +11119,6 @@
 		(path "/b0cc8dd3-b82a-4f7b-a4e0-91a27d8d2f0e")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11480,12 +11306,6 @@
 		(path "/abf6a002-62dc-42e8-a1f5-c222974ab37f")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11723,12 +11543,6 @@
 		(path "/c8b58dae-5585-4982-bf2f-249aaa28a576")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11906,12 +11720,6 @@
 		(path "/f322c73b-dd16-4b80-a187-56241b7e6a39")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12087,12 +11895,6 @@
 		(path "/5824e99a-618e-4b2f-b876-9eebc5878462")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12280,12 +12082,6 @@
 		(path "/4a736419-5aae-48fe-b6a0-83e31ba87999")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12502,12 +12298,6 @@
 		(path "/c81cc292-d91f-4676-8d9e-76a2a33589d5")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12684,12 +12474,6 @@
 		(path "/470b0774-ef39-4413-a78b-3e4ceee7b2c1")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12856,12 +12640,6 @@
 		(path "/123136fe-674a-4c92-a6d2-95459c6b9926")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13040,12 +12818,6 @@
 		(path "/5fee64b1-3ca2-4b0c-b551-41dc0096fa32")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "S" "R" "RN" "T" "TN")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13658,12 +13430,6 @@
 		(path "/e9653c03-17ed-4e2d-8427-e376113f198e")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13851,12 +13617,6 @@
 		(path "/daaf4ee8-d527-421e-a189-a02430b65f26")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14073,12 +13833,6 @@
 		(path "/ac05b18f-d277-4e8d-9f73-0b27e4f5c50f")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14255,12 +14009,6 @@
 		(path "/75ca003c-a763-4fcb-a640-463a65b25b8d")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14550,12 +14298,6 @@
 		(path "/a4469e28-2666-4bae-8449-db626b7b2368")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14743,12 +14485,6 @@
 		(path "/eb249563-b5ef-4761-899e-9a5337b18e31")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14997,12 +14733,6 @@
 		(path "/fc87ece2-0960-4e9d-b6e8-c5bf9dcf0932")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16369,14 +16099,6 @@
 		(path "/395601fa-b4ba-430c-9833-bd0f4903f8d0")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "6" "1" "7" "2" "8" "3" "9" "4" "10" "5" "SH" "11" "12" "13" "14"
-					"15"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16682,6 +16404,19 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "3ba8b98d-e869-4bfb-b5fb-2b69534ecb1d")
+			(effects
+				(font
+					(size 1 0.7)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "12"
+			(at 4.572 5.08 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "365a962e-b2ac-4ced-90db-665f4d8c3239")
 			(effects
 				(font
 					(size 1 0.7)
@@ -17021,12 +16756,6 @@
 		(path "/95bf7261-c8a1-46f6-b4ed-c3eab3260f64")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17138,7 +16867,7 @@
 	(footprint "_my_Transistors:TO-92_Inline_Wide_S9014"
 		(layer "F.Cu")
 		(uuid "b976f342-aa7d-4823-bd25-56da1d02d57b")
-		(at 167.64 91.36 -90)
+		(at 167.64 96.52 90)
 		(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q2"
@@ -17166,7 +16895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17179,7 +16908,7 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17194,12 +16923,6 @@
 		(path "/7f7268e3-29a6-4cd8-baa0-20b1b32df06c")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "B" "C" "E")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17213,26 +16936,15 @@
 			(uuid "9d8e2bb6-7fd1-412a-b7fd-abe4d1f42f90")
 		)
 		(fp_arc
-			(start 0.74 1.85)
-			(mid 0.446097 1.509328)
-			(end 0.215816 1.122795)
+			(start 2.54 -2.6)
+			(mid 3.936979 -2.192818)
+			(end 4.8964 -1.098807)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "355841a7-de72-450c-bc89-c8da12060a2b")
-		)
-		(fp_arc
-			(start 4.864184 1.122795)
-			(mid 4.633903 1.509328)
-			(end 4.34 1.85)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6a266a37-6656-40de-920d-32aa1374db19")
+			(uuid "27676234-4de6-4304-8526-5e8ccd20b508")
 		)
 		(fp_arc
 			(start 0.1836 -1.098807)
@@ -17246,45 +16958,26 @@
 			(uuid "54ccd8fd-75c5-4555-8efa-ed14b24022a7")
 		)
 		(fp_arc
-			(start 2.54 -2.6)
-			(mid 3.936979 -2.192818)
-			(end 4.8964 -1.098807)
+			(start 4.864184 1.122795)
+			(mid 4.633903 1.509328)
+			(end 4.34 1.85)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "27676234-4de6-4304-8526-5e8ccd20b508")
+			(uuid "6a266a37-6656-40de-920d-32aa1374db19")
 		)
-		(fp_line
-			(start 6.09 2.01)
-			(end -1.01 2.01)
+		(fp_arc
+			(start 0.74 1.85)
+			(mid 0.446097 1.509328)
+			(end 0.215816 1.122795)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "ce1f5b62-6795-4514-a058-f5a8ab92e479")
-		)
-		(fp_line
-			(start 6.09 2.01)
-			(end 6.09 -2.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "762a0a2b-f13c-4dea-bdc7-84f0bcbb4854")
-		)
-		(fp_line
-			(start -1.01 -2.73)
-			(end -1.01 2.01)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "91dcb990-67be-45c2-88bf-2c2d512cc7a9")
+			(layer "F.SilkS")
+			(uuid "355841a7-de72-450c-bc89-c8da12060a2b")
 		)
 		(fp_line
 			(start -1.01 -2.73)
@@ -17297,6 +16990,36 @@
 			(uuid "22270425-c665-49da-ab1e-5dd338fc781a")
 		)
 		(fp_line
+			(start -1.01 -2.73)
+			(end -1.01 2.01)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "91dcb990-67be-45c2-88bf-2c2d512cc7a9")
+		)
+		(fp_line
+			(start 6.09 2.01)
+			(end 6.09 -2.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "762a0a2b-f13c-4dea-bdc7-84f0bcbb4854")
+		)
+		(fp_line
+			(start 6.09 2.01)
+			(end -1.01 2.01)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ce1f5b62-6795-4514-a058-f5a8ab92e479")
+		)
+		(fp_line
 			(start 0.8 1.75)
 			(end 4.3 1.75)
 			(stroke
@@ -17305,17 +17028,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "1567bc3f-29d1-4592-9c81-de6461de9846")
-		)
-		(fp_arc
-			(start 0.786375 1.753625)
-			(mid 0.248779 -0.949055)
-			(end 2.54 -2.48)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "439542bb-e387-45fd-9d1e-cebefdb23555")
 		)
 		(fp_arc
 			(start 2.54 -2.48)
@@ -17327,6 +17039,17 @@
 			)
 			(layer "F.Fab")
 			(uuid "d50fb324-e5b6-4cf7-8762-d7a8c842288f")
+		)
+		(fp_arc
+			(start 0.786375 1.753625)
+			(mid 0.248779 -0.949055)
+			(end 2.54 -2.48)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "439542bb-e387-45fd-9d1e-cebefdb23555")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 3.89 -3.81 90)
@@ -17340,7 +17063,7 @@
 			)
 		)
 		(pad "B" thru_hole circle
-			(at 2.54 0 270)
+			(at 2.54 0 90)
 			(size 1.5 1.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -17350,27 +17073,27 @@
 			(pintype "input")
 			(uuid "1cc43588-9ef9-4b2a-89c7-c176352a46bb")
 		)
-		(pad "C" thru_hole circle
-			(at 0 0 270)
+		(pad "C" thru_hole rect
+			(at 5.08 0 90)
 			(size 1.5 1.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/LOAD_IN_D")
-			(pinfunction "C_C")
+			(pinfunction "E_E")
 			(pintype "passive")
-			(uuid "787f2f6f-abbd-4d3a-8f7b-f2290e42ec1b")
+			(uuid "3bc895e5-edb5-49f6-823d-43ff26acd29a")
 		)
-		(pad "E" thru_hole rect
-			(at 5.08 0 270)
+		(pad "E" thru_hole circle
+			(at 0 0 90)
 			(size 1.5 1.5)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "E_E")
+			(pinfunction "C_C")
 			(pintype "passive")
-			(uuid "3bc895e5-edb5-49f6-823d-43ff26acd29a")
+			(uuid "787f2f6f-abbd-4d3a-8f7b-f2290e42ec1b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.step"
@@ -17479,12 +17202,6 @@
 		(path "/a22b1233-3b7b-4bb6-b94a-cdafb712a1df")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17747,12 +17464,6 @@
 		(path "/8159529b-07df-4f74-a726-32bdc878ce8b")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18145,12 +17856,6 @@
 		(path "/31dcc6a3-07ab-4220-93e5-58bcb6c208f0")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18336,12 +18041,6 @@
 		(path "/29410125-5c85-4f40-9242-f7dab46d5fb4")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18844,12 +18543,6 @@
 		(path "/6df895c4-30ed-4648-9c8a-6e6f7ccafda0")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20376,12 +20069,6 @@
 		(path "/387e58d2-1d7d-46f1-b612-80824b3f162c")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20683,12 +20370,6 @@
 		(path "/8837483a-6946-4687-8c81-354278978a69")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20923,12 +20604,6 @@
 		(path "/4f32b904-3c48-4b24-a2e0-e4a89ae2f501")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "6" "4" "2" "5" "3" "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21212,12 +20887,6 @@
 		(path "/078e4e83-52f1-4e6f-ace7-7f3b170ac2bf")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "S" "R" "RN" "T" "TN")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21841,12 +21510,6 @@
 		(path "/5746d85a-97fc-4b32-a6e2-4913cb04ef1b")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22053,12 +21716,6 @@
 		(path "/2c5c48d7-87b5-44e8-81ef-68ff96b4982f")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22235,12 +21892,6 @@
 		(path "/b43256a4-86c8-4c98-82ba-314db837a202")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22427,12 +22078,6 @@
 		(path "/93258d91-5371-4765-a967-2f07ad439e1c")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22659,12 +22304,6 @@
 		(path "/1771c40b-1c45-436b-983b-aab86e15c9fe")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22850,12 +22489,6 @@
 		(path "/cff0c9e0-c86b-4588-96c8-6afedba5e3ac")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "5" "9" "4" "8" "3" "7" "2" "6" "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23116,12 +22749,6 @@
 		(path "/7cbb6e53-bcfc-41a9-8d33-87196e45a946")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23309,12 +22936,6 @@
 		(path "/87caf7fd-e9b4-4f7b-a066-589c2819a931")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23531,12 +23152,6 @@
 		(path "/38480551-1e41-49b2-a684-ddd8be045aaf")
 		(sheetname "/")
 		(sheetfile "rp2040_black_vga.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
